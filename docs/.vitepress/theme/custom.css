@@ -1,0 +1,149 @@
+@font-face {
+  font-family: 'Geist';
+  src: url('/fonts/Geist-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/GeistMono-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─── Typography ─────────────────────────────────── */
+
+:root {
+  --vp-font-family-base: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --vp-font-family-mono: 'Geist Mono', ui-monospace, monospace;
+}
+
+/* ─── Light mode ─────────────────────────────────── */
+
+:root {
+  /* Background */
+  --vp-c-bg:           #FAFAF8;
+  --vp-c-bg-soft:      #F3F2EF;
+  --vp-c-bg-mute:      #ECEAE4;
+  --vp-c-bg-elv:       #FAFAF8;
+  --vp-c-bg-alt:       #F3F2EF;
+
+  /* Text */
+  --vp-c-text-1:       #1C1C1E;
+  --vp-c-text-2:       #48484A;
+  --vp-c-text-3:       #8E8E93;
+
+  /* Dividers */
+  --vp-c-divider:      #E3E1DB;
+  --vp-c-gutter:       #ECEAE4;
+  --vp-c-border:       #D8D6D0;
+
+  /* Brand — warm slate */
+  --vp-c-brand-1:      #5C6AC4;
+  --vp-c-brand-2:      #4A57B0;
+  --vp-c-brand-3:      #3A469C;
+  --vp-c-brand-soft:   #EEF0FA;
+
+  /* Nav */
+  --vp-nav-bg-color:   #FAFAF8;
+
+  /* Sidebar */
+  --vp-sidebar-bg-color: #F3F2EF;
+}
+
+/* ─── Dark mode ──────────────────────────────────── */
+
+.dark {
+  /* Background */
+  --vp-c-bg:           #18181A;
+  --vp-c-bg-soft:      #222224;
+  --vp-c-bg-mute:      #2A2A2C;
+  --vp-c-bg-elv:       #222224;
+  --vp-c-bg-alt:       #222224;
+
+  /* Text */
+  --vp-c-text-1:       #F0EFEB;
+  --vp-c-text-2:       #B8B7B2;
+  --vp-c-text-3:       #7A7A78;
+
+  /* Dividers */
+  --vp-c-divider:      #2E2E30;
+  --vp-c-gutter:       #222224;
+  --vp-c-border:       #3A3A3C;
+
+  /* Brand */
+  --vp-c-brand-1:      #8C97D9;
+  --vp-c-brand-2:      #7B88CC;
+  --vp-c-brand-3:      #6A77BF;
+  --vp-c-brand-soft:   #1E2040;
+
+  /* Nav */
+  --vp-nav-bg-color:   #18181A;
+
+  /* Sidebar */
+  --vp-sidebar-bg-color: #1C1C1E;
+}
+
+/* ─── Layout ─────────────────────────────────────── */
+
+:root {
+  --vp-layout-max-width: 1280px;
+}
+
+/* ─── Typography refinements ─────────────────────── */
+
+.vp-doc p,
+.vp-doc li {
+  line-height: 1.8;
+}
+
+.vp-doc h1 {
+  letter-spacing: -0.02em;
+}
+
+.vp-doc h2 {
+  letter-spacing: -0.01em;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* ─── Nav ────────────────────────────────────────── */
+
+.VPNav {
+  border-bottom: 1px solid var(--vp-c-divider) !important;
+  backdrop-filter: none;
+}
+
+/* ─── Home hero ──────────────────────────────────── */
+
+.VPHero .name {
+  letter-spacing: -0.03em;
+}
+
+.VPHero .text {
+  white-space: nowrap;
+  font-size: 1.85rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.01em;
+  opacity: 0.75;
+}
+
+.VPHero .tagline {
+  font-size: 1.1rem;
+  opacity: 0.7;
+}
+
+/* ─── Code blocks ────────────────────────────────── */
+
+.vp-doc div[class*='language-'] {
+  border-radius: 8px;
+}
+
+/* ─── Table ──────────────────────────────────────── */
+
+.vp-doc table {
+  font-size: 0.9rem;
+}
+
