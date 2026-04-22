@@ -45,12 +45,12 @@ OTD is built for these specific failures.
 | Concept | What it is |
 |---------|-----------|
 | **Area** | An ongoing domain of your life — Career, Health, Finance. Never ends. |
-| **Project** | A goal large enough to contain multiple Flows. Has a finish line. |
-| **Flow** | A specific stream of work. Sequential inside, parallel across. |
+| **Flow** | A specific stream of work. Sequential inside, parallel across. Related Flows group via a `[[keyword]]` prefix. |
 | **Action** | The smallest unit of work. Completable in a single day. |
 | **Mode** | Do / Delegate / Await / Review — who executes and what state. |
 | **Today** | The Actions you will touch today. When empty, your day is done. |
-| **Goals** | 1–2 year directions. Reviewed quarterly, mapped to Projects. |
+| **Stuck Signals** | Threshold-based decay detection. Forces a decision at the Action, Await, Flow, cluster, and Today levels. |
+| **Goals** | 1–2 year directions. Reviewed quarterly, mapped to Flows. |
 | **Reference** | Non-actionable information to keep. Holds Vision and Purpose. |
 
 ---

@@ -36,11 +36,11 @@ Every morning you build Today from what your active Flows surface. Every item in
 | Concept | What it is |
 |---------|-----------|
 | **Area** | An ongoing domain of your life. Never ends. |
-| **Project** | A goal large enough to contain multiple Flows. Has a finish line. |
-| **Flow** | A specific stream of work. Sequential inside, parallel across. |
+| **Flow** | A specific stream of work. Sequential inside, parallel across. Related Flows group via a `[[keyword]]` prefix. |
 | **Action** | The smallest unit of work. Completable in a single day. |
 | **Mode** | Do / Delegate / Await / Review — who executes and what state. |
 | **Today** | The Actions you will touch today. When empty, your day is done. |
+| **Stuck Signals** | Threshold-based decay detection. Forces a decision when things quietly stop moving. |
 
 Two principles underlie everything: *Empty your head.* And *Design your own day.*
 
@@ -50,15 +50,14 @@ Two principles underlie everything: *Empty your head.* And *Design your own day.
 
 ```
 Area: Side Projects
-  └─ Project: App launch
-       ├─ Flow: Build MVP         →  [Do]       Write technical spec
-       └─ Flow: Launch marketing  →  [Delegate] Ask AI to draft landing page copy
+  ├─ Flow: [[App launch]] Build MVP         →  [Do]       Write technical spec
+  └─ Flow: [[App launch]] Launch marketing  →  [Delegate] Ask AI to draft landing page copy
 
 Area: Career
-  └─ Flow: Job search            →  [Review]   Check salary research from yesterday
+  └─ Flow: Job search                       →  [Review]   Check salary research from yesterday
 
 Area: Health
-  └─ Action                      →  [Do]       Book annual checkup
+  └─ Action                                 →  [Do]       Book annual checkup
 ```
 
 ```

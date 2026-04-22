@@ -12,9 +12,8 @@ Today is the set of Actions you will touch today. It's populated during your Dai
 
 Actions arrive in Today in two ways:
 
-**Automatic:** From each active Flow, the first uncompleted Action surfaces automatically. If you have five active Flows, five Actions arrive in Today — one per Flow — without any effort from you. This is the default.
-
-**Manual:** You can pull additional Actions into Today if you want to work ahead, override the default sequence, or address something that needs to happen today regardless of its position in a Flow.
+- **Automatic:** From each active Flow, the first uncompleted Action surfaces automatically. If you have five active Flows, five Actions arrive in Today — one per Flow — without any effort from you. This is the default.
+- **Manual:** You can pull additional Actions into Today if you want to work ahead, override the default sequence, or address something that needs to happen today regardless of its position in a Flow.
 
 The combination gives you both automatic momentum (the system keeps surfacing work) and deliberate control (you decide what else to bring in).
 
@@ -35,9 +34,8 @@ If an item in Today can't be checked today, it shouldn't be in Today. Either it'
 
 Both exist. Don't mix them.
 
-**Calendar** — time-bound commitments with a specific time: meetings, appointments, calls, deadlines. They happen when they happen. You can't move them freely.
-
-**Today** — flexible Actions you've chosen to work on today. No specific time. You do them when you have capacity.
+- **Calendar** — time-bound commitments with a specific time: meetings, appointments, calls, deadlines. They happen when they happen. You can't move them freely.
+- **Today** — flexible Actions you've chosen to work on today. No specific time. You do them when you have capacity.
 
 The distinction matters because mixing them creates false constraints. If "prepare presentation" is in your calendar as an all-day event, it collides with your actual commitments and creates friction. If it's in Today as an Action, you fit it around your meetings when you have focus time.
 
@@ -52,6 +50,8 @@ This signal works because Today is a **closed set** — you built it this mornin
 This signal is honest because every item in Today was completable. An empty Today means real things got done — not that time passed. You chose these Actions in the morning. They're gone by noon, or 3pm, or end of day. Either way: done.
 
 If Today is regularly not empty at end of day, that's feedback. Either you're overloading it (pull fewer Actions), the Actions are too large (break them down), or something in your Flows is stuck (check during Weekly Review).
+
+Three or more consecutive days where Today hasn't emptied is a [Chronic Today](/stuck#5-chronic-today) Stuck Signal — the completion signal itself is broken, and resolving it takes priority over anything else.
 
 ### Today capacity
 
@@ -82,23 +82,23 @@ What this requires from you: don't treat undone Actions as carry-over debt. Don'
 Someday is where you park things you're not working on now but might in the future.
 
 What lives in Someday:
-- A dormant **Project** — a goal you're interested in but not pursuing yet
 - A dormant **Flow** — a stream of work you've paused
+- A dormant **Flow cluster** — related Flows grouped under a `[[keyword]]` prefix, a goal you're interested in but not pursuing yet
 - A standalone **Action** — something you want to do eventually but not now
 
-Someday is equivalent to GTD's Someday/Maybe list. The concept is identical. The implementation in OTD extends to Projects and Flows, not just standalone items.
+Someday is equivalent to GTD's Someday/Maybe list. The concept is identical. The implementation in OTD extends to Flows and Flow clusters, not just standalone items.
 
 ### Moving to Someday
 
 When you decide you're not working on something now:
-- Move the Project, Flow, or Action to Someday
+- Move the Flow or Action to Someday (you can park an entire `[[keyword]]` cluster the same way)
 - It stops surfacing Actions in Today
 - It disappears from active view
 - It appears in your Weekly Review's Someday list
 
 This is not deletion. You're not giving up on it. You're acknowledging: not now.
 
-The value of Someday over deletion is that good ideas don't disappear. A Project that isn't timely now might become critical in three months. A skill you want to develop might have to wait until you finish a current commitment. Someday holds all of it, quietly, until Weekly Review brings it back up.
+The value of Someday over deletion is that good ideas don't disappear. A Flow that isn't timely now might become critical in three months. A skill you want to develop might have to wait until you finish a current commitment. Someday holds all of it, quietly, until Weekly Review brings it back up.
 
 ### Someday and Weekly Review
 
@@ -114,8 +114,7 @@ Someday should feel like a waiting room, not a graveyard. Things enter it with t
 
 These are different.
 
-**Someday** — things you might act on. There's a future Action attached to them.
-
-**Reference** — non-actionable information you want to keep. Notes, documents, links. No action required, now or later.
+- **Someday** — things you might act on. There's a future Action attached to them.
+- **Reference** — non-actionable information you want to keep. Notes, documents, links. No action required, now or later.
 
 If you find yourself filing something as Someday but it never turns into an Action, it might actually be Reference. If it's information you want to keep but don't need to act on, move it there.

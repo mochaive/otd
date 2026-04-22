@@ -6,14 +6,14 @@ Stage 4: OTD extends GTD's Weekly Review into a dual rhythm — daily and weekly
 
 ## Why review matters
 
-The system doesn't run itself. Flows surface Actions, but someone has to ask whether those Flows are still the right ones. Projects advance, but someone has to check whether they're heading toward the right goal. Someday items wait, but someone has to decide when to activate them.
+The system doesn't run itself. Flows surface Actions, but someone has to ask whether those Flows are still the right ones. Flows advance, but someone has to check whether they're heading toward the right goal. Someday items wait, but someone has to decide when to activate them.
 
 That someone is you, during Review.
 
 Without Review, the system decays in a predictable pattern:
 1. Inbox fills up without getting processed
 2. Active Flows surface Actions that no longer reflect current priorities
-3. Projects stall without anyone noticing
+3. Flows stall without anyone noticing
 4. Someday grows without being reconsidered
 5. The system feels stale and you stop trusting it
 6. You stop using it
@@ -44,7 +44,10 @@ The automatic surfacing from Flows is calibrated to your active work. Trust it. 
 **4. Adjust if needed.**
 Does anything in Today feel wrong for today? Move it out. Is the sequence of Mode-based execution (Review → Delegate → Do) already clear? Good.
 
-**5. Begin.**
+**5. Check for Chronic Today.**
+When was Today last empty? If it's been 3+ consecutive days, that's [Chronic Today](/stuck#5-chronic-today) — resolve it before any other decision. Audit Action sizes, reduce active Flows, or restrain manual additions.
+
+**6. Begin.**
 You've spent 5–10 minutes. Today is set. Start working.
 
 Daily Review is deliberately short. Its purpose is not to think deeply about your system — it's to confirm that Today contains the right Actions for the day and that nothing urgent was missed. Deep thinking happens in Weekly Review.
@@ -71,20 +74,24 @@ Process any remaining captures. Nothing unprocessed should be sitting in Inbox a
 ### Review every Area
 Look at each Area from above. Is anything being neglected? Are there Areas where nothing has moved in weeks? That neglect is information — either something important is being avoided, or the Area isn't as active as you thought.
 
-### Review every active Project
-Is each Project progressing toward its goal? Is any Project stalled across all its Flows? A Project that hasn't moved in three weeks probably needs attention, re-scoping, or a move to Someday.
+### Audit Stuck Signals
+Work through the five [Stuck Signals](/stuck) systematically. For each flagged item, pick a resolution — don't defer to next week.
 
-### Review every active Flow
-Is each Flow progressing? Is there any Flow where the current Action has been in Today for multiple days without being completed? That's a stuck Flow — investigate why. The Action might be too large, too vague, or blocked on something.
+- **Stuck Action** (3+ days in Today): Split / Rewrite / Keep (deliberate) / Delete
+- **Stale Await** (7+ days no response): Follow up / Re-delegate / Cancel
+- **Stalled Flow** (2+ weeks no completion): Keep active (with reason) / Someday / Delete
+- **Dormant cluster** (1+ month no progress across the cluster): Park cluster / Dissolve / Keep
 
-### Review Await items
-Anything that's been in Await too long? For delegated work: follow up or re-delegate. For external dependencies: is there anything you can do to unblock it, or do you just wait?
+The point of this section is threshold-based auditing by category. A vague "are my Areas and Flows OK?" scan is less honest than checking against explicit thresholds.
+
+### Investigate Chronic Today causes
+If Daily Review hit a Chronic Today state this week, use Weekly Review to find the structural cause: Too many active Flows? Actions consistently too large? Relying on manual additions? Fix the cause, not the symptom.
 
 ### Review Someday
 Anything ready to activate? Anything you'll never actually do that should be deleted? Someday should never just grow — it should be pruned.
 
 ### Review Goals
-Look at your active Goals. For each one: are there Projects currently advancing toward it? Is anything blocked or missing? This doesn't need to be deep — two minutes scanning the list is enough. If a Goal has no active Project, consider activating one.
+Look at your active Goals. For each one: are there Flows currently advancing toward it? Is anything blocked or missing? This doesn't need to be deep — two minutes scanning the list is enough. If a Goal has no active Flow, consider activating one.
 
 ### Review calendar
 Upcoming commitments in the next 1–2 weeks that need preparation? Any conflicts between Today-type work and time-bound commitments? Create Actions now for preparation you'll need.
@@ -100,11 +107,12 @@ The Weekly Review keeps the system running. The Quarterly Review keeps it pointe
 **Checklist:**
 
 - **Review each Goal.** Is it still relevant? Update the wording, retire Goals that no longer apply, add new ones that have emerged.
-- **Map Goals to Projects.** For each Goal: which Projects are currently serving it? Are there Goals with no active Projects? Activate one. Are there Projects that don't serve any Goal? Consider moving them to Someday.
+- **Map Goals to Flows.** For each Goal: which Flows are currently serving it? Are there Goals with no active Flows? Activate one. Are there Flows that don't serve any Goal? Consider moving them to Someday.
+- **Re-evaluate dormant clusters.** For any `[[keyword]]` cluster flagged as dormant during Weekly Review, revisit its Goal mapping now. If it still maps to a valid Goal, reactivate or re-scope it. If not, commit to deletion or long-term Someday.
 - **Look ahead.** What's coming in the next quarter that needs preparation now?
 - **Update Someday.** Anything in Someday that's ready to activate given current Goals?
 
-The Quarterly Review is where Goal ↔ Project alignment happens explicitly. Weekly Review checks it briefly. Quarterly Review does the proper audit.
+The Quarterly Review is where Goal ↔ Flow alignment happens explicitly. Weekly Review checks it briefly. Quarterly Review does the proper audit.
 
 ---
 
@@ -126,18 +134,14 @@ Update your Goals list for the coming year. Adjust if your Vision has evolved. T
 
 Weekly Review is the single most important habit in the system. Here's what happens when it slips:
 
-**Week 1 missed:** Someday gets a bit stale. A stuck Flow goes unnoticed for a week. Minor.
-
-**Month without Weekly Review:** Inbox accumulates. Several Flows are stuck but still surfacing stale Actions. A Project that should have moved to Someday is still active and generating noise. Your Areas haven't been looked at, so a neglected domain keeps being neglected.
-
-**Quarter without Weekly Review:** You've stopped trusting the system. You're maintaining a parallel mental model of what actually matters because the system has drifted from reality. You've essentially reverted to the state before OTD — carrying things in your head because the system can't be trusted.
+- **Week 1 missed:** Someday gets a bit stale. A stuck Flow goes unnoticed for a week. Minor.
+- **Month without Weekly Review:** Inbox accumulates. Several Flows are stuck but still surfacing stale Actions. A Flow that should have moved to Someday is still active and generating noise. Your Areas haven't been looked at, so a neglected domain keeps being neglected.
+- **Quarter without Weekly Review:** You've stopped trusting the system. You're maintaining a parallel mental model of what actually matters because the system has drifted from reality. You've essentially reverted to the state before OTD — carrying things in your head because the system can't be trusted.
 
 The decay is real and progressive. One missed Weekly Review is harmless. A habit of missing them is a silent failure.
 
 ### Making Weekly Review stick
 
-**Fix the time.** Not "whenever I have time on Sunday." A specific day, a specific window. Treat it as a commitment on your calendar.
-
-**Lower the bar when needed.** A partial Weekly Review is infinitely better than none. If you only have 15 minutes, do the most important parts: process Inbox, check stuck Flows, scan Someday. The full checklist is the ideal. The partial checklist is the minimum viable version.
-
-**Notice the reward.** After a good Weekly Review, your system is clean. Today feels trustworthy. You know what's active and why. That feeling is the reward — and it's a reliable one. Systems people who have a Weekly Review habit reliably report it as the most satisfying part of their practice.
+- **Fix the time.** Not "whenever I have time on Sunday." A specific day, a specific window. Treat it as a commitment on your calendar.
+- **Lower the bar when needed.** A partial Weekly Review is infinitely better than none. If you only have 15 minutes, do the most important parts: process Inbox, check stuck Flows, scan Someday. The full checklist is the ideal. The partial checklist is the minimum viable version.
+- **Notice the reward.** After a good Weekly Review, your system is clean. Today feels trustworthy. You know what's active and why. That feeling is the reward — and it's a reliable one. Systems people who have a Weekly Review habit reliably report it as the most satisfying part of their practice.

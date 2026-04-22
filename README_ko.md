@@ -36,11 +36,11 @@ Do, Delegate, Await, Review — 동등한 가시성을 가진 네 가지 Mode. �
 | 개념 | 설명 |
 |------|------|
 | **Area** | 삶의 영역. 끝이 없다. |
-| **Project** | 여러 Flow를 포함할 만큼 큰 목표. 끝이 있다. |
-| **Flow** | 구체적인 작업 흐름. 내부 순차, Flow 간 병렬. |
+| **Flow** | 구체적인 작업 흐름. 내부 순차, Flow 간 병렬. 관련 Flow는 `[[키워드]]` 접두사로 묶는다. |
 | **Action** | 작업의 최소 단위. 하루 안에 완료 가능. |
 | **Mode** | Do / Delegate / Await / Review — 누가 실행하고 어떤 상태인가. |
 | **Today** | 오늘 건드릴 Action들의 모음. 비면 오늘 할 일이 끝난 것. |
+| **Stuck Signals** | 임계치 기반 정체 진단. 결정을 피할 수 없게 만든다. |
 
 모든 것의 기반이 되는 두 원칙: *머리를 비워라.* 그리고 *오늘을 직접 설계하라.*
 
@@ -50,15 +50,14 @@ Do, Delegate, Await, Review — 동등한 가시성을 가진 네 가지 Mode. �
 
 ```
 Area: 사이드 프로젝트
-  └─ Project: 앱 런칭
-       ├─ Flow: MVP 개발        →  [Do]       기술 스펙 작성
-       └─ Flow: 런칭 마케팅     →  [Delegate] AI에게 랜딩 페이지 카피 요청
+  ├─ Flow: [[앱 런칭]] MVP 개발       →  [Do]       기술 스펙 작성
+  └─ Flow: [[앱 런칭]] 런칭 마케팅    →  [Delegate] AI에게 랜딩 페이지 카피 요청
 
 Area: 커리어
-  └─ Flow: 이직 준비           →  [Review]   어제 위임한 연봉 리서치 결과 검토
+  └─ Flow: 이직 준비                 →  [Review]   어제 위임한 연봉 리서치 결과 검토
 
 Area: 건강
-  └─ Action                   →  [Do]       건강검진 예약
+  └─ Action                         →  [Do]       건강검진 예약
 ```
 
 ```

@@ -13,11 +13,11 @@ const enSidebar = [
     text: 'Core Concepts',
     items: [
       { text: 'Area', link: '/area' },
-      { text: 'Project', link: '/project' },
       { text: 'Flow', link: '/flow' },
       { text: 'Action', link: '/action' },
       { text: 'Mode', link: '/mode' },
       { text: 'Today & Someday', link: '/today-and-someday' },
+      { text: 'Stuck Signals', link: '/stuck' },
       { text: 'Goals', link: '/goals' },
       { text: 'Reference', link: '/reference' },
     ]
@@ -57,11 +57,11 @@ const koSidebar = [
     text: '핵심 개념',
     items: [
       { text: 'Area', link: '/ko/area' },
-      { text: 'Project', link: '/ko/project' },
       { text: 'Flow', link: '/ko/flow' },
       { text: 'Action', link: '/ko/action' },
       { text: 'Mode', link: '/ko/mode' },
       { text: 'Today & Someday', link: '/ko/today-and-someday' },
+      { text: 'Stuck Signals', link: '/ko/stuck' },
       { text: 'Goals', link: '/ko/goals' },
       { text: 'Reference', link: '/ko/reference' },
     ]
