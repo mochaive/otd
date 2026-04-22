@@ -1,6 +1,6 @@
 # Goals
 
-A Goal is a 1–2 year direction you want to move toward. It lives independently — not inside an Area, not inside a Project.
+A Goal is a 1–2 year direction you want to move toward. It lives independently — not inside an Area, not inside a Flow.
 
 ---
 
@@ -8,7 +8,7 @@ A Goal is a 1–2 year direction you want to move toward. It lives independently
 
 A Goal answers the question: **what do you want to have achieved in the next year or two?**
 
-Goals are not tasks. They don't surface Actions in Today. They don't contain Flows. They exist separately, reviewed quarterly, and their purpose is to inform which Projects you activate.
+Goals are not tasks. They don't surface Actions in Today. They don't contain Flows. They exist separately, reviewed quarterly, and their purpose is to inform which Flows you activate.
 
 Examples of Goals:
 - "Make the transition to senior engineer by end of 2026"
@@ -18,21 +18,21 @@ Examples of Goals:
 
 ---
 
-## How Goals differ from Projects
+## How Goals differ from Flows
 
 This is the most important distinction in OTD.
 
-| | Goal | Project |
-|--|------|---------|
-| Timeframe | 1–2 years | Weeks to months |
+| | Goal | Flow |
+|--|------|------|
+| Timeframe | 1–2 years | Days to months |
 | Nature | Direction | Active work |
-| Contains | Nothing (structurally) | Multiple Flows |
+| Contains | Nothing (structurally) | Sequential Actions |
 | Review | Quarterly | Weekly |
-| Action source | No | Yes (via Flows) |
+| Action source | No | Yes |
 
-A Goal like "make the transition to senior engineer" doesn't directly generate Actions. But it informs which Projects you activate: "Build portfolio," "Get AWS certification," "Lead a major initiative at work." Those Projects contain the Flows and Actions that do the actual work.
+A Goal like "make the transition to senior engineer" doesn't directly generate Actions. But it informs which Flows you activate: "Build portfolio," "Get AWS certification," "Lead a major initiative at work." Those Flows contain the Actions that do the actual work.
 
-The Goal is the why behind the Project. The Project is the how.
+The Goal is the why behind the Flow. The Flow is the how.
 
 ---
 
@@ -53,7 +53,7 @@ That said, most Goals do have a primary Area. It's fine to think of them that wa
 
 ## How many Goals
 
-Aim for 3–7 active Goals. More than that and you'll have more active Projects than you can realistically advance. Fewer than 3 and you're probably not thinking far enough ahead.
+Aim for 3–7 active Goals. More than that and you'll have more active Flows than you can realistically advance. Fewer than 3 and you're probably not thinking far enough ahead.
 
 If a Goal is no longer relevant — circumstances changed, priorities shifted — move it to Someday or delete it. Goals age. Review them.
 
@@ -63,7 +63,7 @@ If a Goal is no longer relevant — circumstances changed, priorities shifted �
 
 A good Goal is:
 - **Specific enough to judge** — "Be healthier" is not a Goal. "Run a half marathon by May" is.
-- **Achievable in 1–2 years** — If it takes a decade, it's a Vision. If it takes a month, it's probably just a Project.
+- **Achievable in 1–2 years** — If it takes a decade, it's a Vision. If it takes a month, it's probably just a Flow.
 - **Outcome, not activity** — "Work on my app" is activity. "Ship the first public version" is an outcome.
 
 You don't need elaborate SMART formatting. A clear sentence is enough.
@@ -75,18 +75,18 @@ You don't need elaborate SMART formatting. A clear sentence is enough.
 Goals are reviewed at two cadences.
 
 **Weekly Review — a brief check:**
-Look at your active Goals. For each one: are there Projects currently advancing toward it? Is anything blocked or missing?
+Look at your active Goals. For each one: are there Flows currently advancing toward it? Is anything blocked or missing?
 
-This doesn't need to be deep. Two minutes scanning the list: "Goal 1 — yes, Portfolio project is moving. Goal 2 — nothing active yet, should I start something?"
+This doesn't need to be deep. Two minutes scanning the list: "Goal 1 — yes, Portfolio Flow is moving. Goal 2 — nothing active yet, should I start something?"
 
 **Quarterly Review — a proper audit:**
 1. Review each Goal: is it still relevant? Update or retire as needed.
-2. For each Goal, map which Projects are currently serving it.
-3. Are there Goals with no active Projects? Activate one.
-4. Are there Projects that don't serve any Goal? Consider moving to Someday.
+2. For each Goal, map which Flows are currently serving it.
+3. Are there Goals with no active Flows? Activate one.
+4. Are there Flows that don't serve any Goal? Consider moving to Someday.
 5. Add any new Goals that have emerged.
 
-The Goal ↔ Project mapping is always done in Review — never as a fixed structural connection. Projects come and go; Goals are more stable. Keeping the connection dynamic rather than structural makes the system easier to maintain.
+The Goal ↔ Flow mapping is always done in Review — never as a fixed structural connection. Flows come and go; Goals are more stable. Keeping the connection dynamic rather than structural makes the system easier to maintain.
 
 ---
 
@@ -96,8 +96,8 @@ The Goal ↔ Project mapping is always done in Review — never as a fixed struc
 |--|------|--------|---------|
 | Timeframe | 1–2 years | 3–5 years | Indefinite |
 | Review | Quarterly | Annual | Annual or less |
-| Connects to | Projects | Goals | Goals / Areas |
+| Connects to | Flows | Goals | Goals / Areas |
 
 Vision and Purpose are not Goals. They're a longer-range backdrop that informs whether your Goals are pointing in the right direction. They live in [Reference](/reference) and are reviewed annually.
 
-The cascade: Purpose informs Vision, Vision informs Goals, Goals inform Projects, Projects contain Flows, Flows surface Actions in Today.
+The cascade: Purpose informs Vision, Vision informs Goals, Goals inform which Flows to activate, Flows surface Actions in Today.

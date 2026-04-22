@@ -143,19 +143,20 @@ The example from the README, expanded.
 **System state:**
 ```
 Area: Side Projects
-  └─ Project: App launch
-       ├─ Flow: Build MVP
-       │    └─ [Do] Write technical spec for auth module    ← active
-       └─ Flow: Launch marketing
-            └─ [Delegate] Ask AI to draft landing page copy ← active
+  ├─ Flow: [[App launch]] Build MVP
+  │    └─ [Do] Write technical spec for auth module    ← active
+  └─ Flow: [[App launch]] Launch marketing
+       └─ [Delegate] Ask AI to draft landing page copy ← active
 
 Area: Career
   └─ Flow: Job search
-       └─ [Review] Review salary research from yesterday    ← active
+       └─ [Review] Review salary research from yesterday ← active
 
 Area: Health
-  └─ [Do] Book annual checkup  ← standalone Action
+  └─ [Do] Book annual checkup                          ← standalone Action
 ```
+
+The two `[[App launch]]` Flows belong to the same goal. They land next to each other under sort, but the framework treats them as independent Flows. "Job search" is the only Flow serving its goal, so it carries no prefix.
 
 **Daily Review (07:00, 5 minutes):**
 
@@ -175,11 +176,11 @@ Check [Review]. The next Action in the Job Search flow unlocks: "Identify target
 
 09:00 — **Delegate phase**
 Write the landing page prompt: "Draft a landing page for a developer tool that helps teams manage async work. Tone: clear and direct. Include: headline, three feature bullets, one CTA. No fluff."
-Send to AI. Check [Delegate]. This Action moves to Await in the Launch Marketing flow.
+Send to AI. Check [Delegate]. This Action moves to Await in the [[App launch]] Launch marketing flow.
 
 10:00 — **Do phase**
 Open the auth module spec. Spend 90 minutes writing. Done. Check [Do].
-Next Action in the Build MVP flow unlocks: "Review spec with the team."
+Next Action in the [[App launch]] Build MVP flow unlocks: "Review spec with the team."
 
 Quick break. Book the checkup — it takes 3 minutes. Check [Do].
 

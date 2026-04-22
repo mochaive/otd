@@ -43,19 +43,16 @@ This question is new in OTD — GTD didn't explicitly ask it.
 - **Delegate** — I'll hand this to AI or someone else.
 - **Await** — I'm already waiting on this (it came in as a status update, for example).
 
-Then place the Action in the appropriate Area, Project, and Flow. If the Action feels too large to complete in a day, break it into smaller Actions.
+Then place the Action in the appropriate Area or Flow. If the Action feels too large to complete in a day, break it into smaller Actions.
 
 ---
 
 ## Processing rules
 
-**One item at a time. Top to bottom.** Process Inbox sequentially. Don't skip around. Don't leave items to "come back to later." Every item gets processed in the pass.
-
-**Never put an item back into Inbox.** Make a decision: trash, reference, Someday, or Action. "I'll deal with this later" is not a decision — it's a delay. Later, re-captured in the same Inbox, with the same lack of context.
-
-**The 2-minute rule.** If acting on this takes less than 2 minutes, do it now. Don't put it in the system — the overhead of organizing, placing, and reviewing an item exceeds the effort of just doing it. This rule is inherited directly from GTD.
-
-**Inbox zero is the goal.** Not a daily requirement, but a direction. When Inbox is empty, you know everything has been decided. Nothing is ambiguous. No item is in limbo.
+- **One item at a time. Top to bottom.** Process Inbox sequentially. Don't skip around. Don't leave items to "come back to later." Every item gets processed in the pass.
+- **Never put an item back into Inbox.** Make a decision: trash, reference, Someday, or Action. "I'll deal with this later" is not a decision — it's a delay. Later, re-captured in the same Inbox, with the same lack of context.
+- **The 2-minute rule.** If acting on this takes less than 2 minutes, do it now. Don't put it in the system — the overhead of organizing, placing, and reviewing an item exceeds the effort of just doing it. This rule is inherited directly from GTD.
+- **Inbox zero is the goal.** Not a daily requirement, but a direction. When Inbox is empty, you know everything has been decided. Nothing is ambiguous. No item is in limbo.
 
 ---
 

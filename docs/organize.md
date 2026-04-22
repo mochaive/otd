@@ -31,9 +31,9 @@ Does this belong to an existing Area?
             │
             └─ No — needs a new Flow
                  │
-                 ├─ Will there be multiple parallel Flows for this goal?
-                 │    ├─ Yes → Create a new Project + first Flow
-                 │    └─ No  → Create a new standalone Flow in Area
+                 └─ Create a new Flow in the Area
+                    (if another Flow already serves the same larger goal,
+                     group them with a shared `[[keyword]]` prefix)
 ```
 
 Most of the time, the path is short. You have an action. You know it's Career. You know it's part of the job search flow. You add it to the right Flow. Done.
@@ -44,24 +44,30 @@ The longer paths appear when the work is genuinely new: a new goal, a new respon
 
 ## Placing into Areas
 
-If you don't have an Area that fits, you might need to create one. But first, pause and check: is this actually a new Area of responsibility, or is it a Project inside an Area you already have?
+If you don't have an Area that fits, you might need to create one. But first, pause and check: is this actually a new Area of responsibility, or is it a Flow (or cluster of Flows) inside an Area you already have?
 
-"Learn Spanish" is not a new Area. It's probably a Project inside "Learning" or "Personal Development."
+"Learn Spanish" is not a new Area. It's probably a Flow inside "Learning" or "Personal Development."
 
-"Freelance work" might be a new Area if you're starting to take on freelance clients — it's an ongoing domain of responsibility that persists. Or it might be a Project inside "Career" if it's a one-time engagement.
+"Freelance work" might be a new Area if you're starting to take on freelance clients — it's an ongoing domain of responsibility that persists. Or it might be a Flow inside "Career" if it's a one-time engagement.
 
-The test: does this ongoing domain of responsibility persist indefinitely, or does it have a finish line? If it persists, it might be an Area. If it ends, it's a Project.
+The test: does this ongoing domain of responsibility persist indefinitely, or does it have a finish line? If it persists, it might be an Area. If it ends, it's a Flow (or several Flows grouped under a `[[keyword]]`).
 
 ---
 
-## Placing into Projects
+## When multiple Flows share a goal
 
-Use a Project when multiple Flows share the same goal. The Project is the grouping, not the work itself.
+When multiple parallel Flows serve one larger goal, group them with a `[[keyword]]` prefix. There's no higher container — just a shared name.
+
+```
+Area: Side Projects
+  ├─ Flow: [[App launch]] Build MVP
+  └─ Flow: [[App launch]] Launch marketing
+```
 
 When placing an Action:
-1. Is there already a Project for this goal?
-2. If yes, does the Action belong to an existing Flow inside that Project?
-3. If the Flow doesn't exist yet, create it.
+1. Is there already a Flow for this goal?
+2. If yes, add to that Flow.
+3. If not, create a new Flow and apply the shared prefix.
 
 Sometimes you'll add a single Action and realize it's actually the start of a new Flow. That's fine — let the structure emerge from actual work, not from pre-planned scaffolding.
 
@@ -71,11 +77,9 @@ Sometimes you'll add a single Action and realize it's actually the start of a ne
 
 This is where most Actions land. The Flow has a sequence. You're adding to it.
 
-**Adding at the end:** The natural place for most new Actions. If you're building out a sequence step by step, each new Action goes at the end as the next step.
-
-**Adding in the middle:** Sometimes you realize a step is missing between two existing Actions. Insert it. The Flow handles the resequencing automatically.
-
-**Breaking an existing Action:** If an Action has grown too large for one day, break it at the point it currently lives. Replace it with two or three smaller Actions in sequence.
+- **Adding at the end:** The natural place for most new Actions. If you're building out a sequence step by step, each new Action goes at the end as the next step.
+- **Adding in the middle:** Sometimes you realize a step is missing between two existing Actions. Insert it. The Flow handles the resequencing automatically.
+- **Breaking an existing Action:** If an Action has grown too large for one day, break it at the point it currently lives. Replace it with two or three smaller Actions in sequence.
 
 ---
 
@@ -83,11 +87,9 @@ This is where most Actions land. The Flow has a sequence. You're adding to it.
 
 Sometimes a processed item doesn't fit anywhere existing. That's normal — especially during a first-time setup or when your life is changing.
 
-**Creating a new Flow:** Give it a name that describes the outcome, not the activity. "Land new client" is clearer than "client work." "Ship v2 feature" is clearer than "development."
-
-**Creating a new Project:** Only when you have (or expect) multiple Flows under a common goal. Don't create Projects preemptively "just in case." Let them emerge when the second Flow appears.
-
-**Creating a new Area:** Only when there's genuinely a new domain of ongoing responsibility. Most apparent "new Areas" are actually Projects inside existing Areas.
+- **Creating a new Flow:** Give it a name that describes the outcome, not the activity. "Land new client" is clearer than "client work." "Ship v2 feature" is clearer than "development."
+- **Grouping Flows with a `[[keyword]]` prefix:** Only when a second Flow emerges for the same common goal. Don't pre-group "just in case." The prefix earns its keep only when two Flows actually share a goal.
+- **Creating a new Area:** Only when there's genuinely a new domain of ongoing responsibility. Most apparent "new Areas" are actually Flows inside existing Areas.
 
 ---
 
@@ -95,9 +97,9 @@ Sometimes a processed item doesn't fit anywhere existing. That's normal — espe
 
 Use as little structure as the work requires. Not more.
 
-A standalone Action living directly under an Area is not less organized than an Action in a Project → Flow → Area chain. It's correctly placed for what it is.
+A standalone Action living directly under an Area is not less organized than an Action in an Area → Flow → Action chain. It's correctly placed for what it is.
 
-Over-structuring is a real failure mode: creating Projects for single Flows, creating Flows for single Actions, nesting things one level deeper than they need to be. This adds organizational overhead without adding clarity — and it makes the system feel heavier than it should.
+Over-structuring is a real failure mode: creating Flows for single Actions, adding `[[keyword]]` prefixes where no grouping exists, nesting things one level deeper than they need to be. This adds organizational overhead without adding clarity — and it makes the system feel heavier than it should.
 
 When in doubt, go simpler. Add structure when you have multiple related things that need grouping. Not before.
 

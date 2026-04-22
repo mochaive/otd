@@ -20,11 +20,16 @@ OTD is tool-agnostic. You can implement it with a notes app, a spreadsheet, a pu
 
 ---
 
-**What's the difference between a Project and a Flow?**
+**What if multiple Flows belong to the same larger goal?**
 
-A Project is a large goal that contains multiple Flows. A Flow is a specific stream of sequential work aimed at one outcome.
+Common situation — "App launch," for example, naturally splits into a Build MVP Flow and a Launch marketing Flow. OTD doesn't add a layer above Flow for this. Instead, prefix the related Flow names with `[[keyword]]`:
 
-"Job search" might be a Project if it contains multiple Flows: preparing your portfolio, reaching out to companies, and prepping for interviews. Each of those is a Flow. If you only have one stream of work, skip the Project and put the Flow directly under the Area.
+```
+[[App launch]] Build MVP
+[[App launch]] Launch marketing
+```
+
+Under alphabetical sort they land next to each other. When the goal is done, you just delete the Flows and the grouping disappears with them — no orphan tags or folders. `[[keyword]]` is recommended, but any consistent prefix works. If only one Flow serves the goal, skip the prefix.
 
 ---
 
@@ -36,9 +41,9 @@ This isn't just a technicality. OTD's feedback loop depends on it: Today is empt
 
 ---
 
-**Isn't four layers (Area → Project → Flow → Action) too complex?**
+**Isn't this still complex?**
 
-In practice, most tasks only use two or three layers. A standalone task that doesn't belong to any sequence lives directly under an Area. A simple workstream is just Area → Flow → Action. Projects appear only when multiple Flows share a common goal. You won't use all four for every task.
+In practice, most tasks use only two layers — an Action directly under an Area, or an Action inside a Flow inside an Area. The full Area → Flow → Action chain only appears when the work is a sequence. Standalone Actions skip the Flow. When multiple Flows share a goal, the `[[keyword]]` prefix groups them without adding a new layer.
 
 ---
 

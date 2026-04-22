@@ -10,7 +10,7 @@ Reference is the part of your system that holds information, not work. Notes, do
 
 The defining question: **does this require any action from me?**
 
-- Yes → it's an Action, a Flow, a Project
+- Yes → it's an Action or a Flow
 - No → it's Reference
 
 Reference is not Someday. Someday holds things you might act on in the future. Reference holds things you might look up in the future. The difference is whether there's a potential Action attached.
@@ -22,8 +22,8 @@ Reference is not Someday. Someday holds things you might act on in the future. R
 **Evergreen information:**
 Notes you've taken, summaries of things you've read, how-to guides, contact information, account credentials, receipts, records.
 
-**Project support materials:**
-Research for an active Project, meeting notes related to ongoing work, documents connected to a Flow. This is "project reference" — it supports active work but isn't itself actionable.
+**Flow support materials:**
+Research for an active Flow, meeting notes related to ongoing work, documents connected to a Flow. This is "Flow reference" — it supports active work but isn't itself actionable.
 
 **Vision and Purpose:**
 Where you want to be in 3–5 years (Vision), and your core values and reasons for doing what you do (Purpose). These are the two most important things to keep in Reference.
@@ -32,7 +32,7 @@ Where you want to be in 3–5 years (Vision), and your core values and reasons f
 
 ## Vision and Purpose
 
-Vision and Purpose are the upper horizons of your system. They don't generate Actions. They don't map to Projects directly. But they're the backdrop against which everything else should make sense.
+Vision and Purpose are the upper horizons of your system. They don't generate Actions. They don't map to Flows directly. But they're the backdrop against which everything else should make sense.
 
 **Vision** — Your 3–5 year picture. What does your life look like if things go well? What kind of work are you doing? What have you built? Who are you with?
 
@@ -57,11 +57,9 @@ This is the Annual Review. It's not in the daily or weekly rhythm, but it's what
 
 OTD doesn't prescribe how to organize Reference. The principles are simple:
 
-**Findable.** If you can't find something when you need it, it's not useful. Whatever organization system makes things findable for you is the right one.
-
-**Separate from action items.** Reference and actionable work should live in different places, or at least be clearly distinguished. Mixing them creates confusion — you'll scan Reference looking for something and accidentally pick up tasks that belong in Today.
-
-**Low maintenance.** You shouldn't have to spend significant time curating Reference. File things when they arrive. Retrieve when needed. Occasional pruning during Weekly Review is enough.
+- **Findable.** If you can't find something when you need it, it's not useful. Whatever organization system makes things findable for you is the right one.
+- **Separate from action items.** Reference and actionable work should live in different places, or at least be clearly distinguished. Mixing them creates confusion — you'll scan Reference looking for something and accidentally pick up tasks that belong in Today.
+- **Low maintenance.** You shouldn't have to spend significant time curating Reference. File things when they arrive. Retrieve when needed. Occasional pruning during Weekly Review is enough.
 
 ---
 
@@ -69,8 +67,7 @@ OTD doesn't prescribe how to organize Reference. The principles are simple:
 
 Both are places for things that aren't in your active system. The difference:
 
-**Reference** — No future action. You might look this up. You will not act on it.
-
-**Someday** — Potential future action. You might activate this. There's a Project, Flow, or Action waiting to happen.
+- **Reference** — No future action. You might look this up. You will not act on it.
+- **Someday** — Potential future action. You might activate this. There's a Flow or Action waiting to happen.
 
 If you're not sure: ask "will I ever need to do something with this?" If yes, Someday. If no (just information), Reference.

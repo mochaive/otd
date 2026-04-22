@@ -13,7 +13,7 @@ Every Action has:
 - **A Mode** — Do, Delegate, Await, or Review
 - **An optional date** — when it should surface, if not immediately
 
-Actions are the leaves of the OTD tree. Areas, Projects, and Flows are containers. Actions are what you actually do.
+Actions are the leaves of the OTD tree. Areas and Flows are containers. Actions are what you actually do.
 
 ---
 
@@ -63,12 +63,11 @@ The test: when the Action surfaces in Today tomorrow morning, can you start it i
 
 ## Actions in different positions
 
-An Action can live in different places in the structure:
+An Action lives in one of two places:
 
 ```
 Area → Action                     Book health checkup
-Area → Flow → Action              Update LinkedIn profile
-Area → Project → Flow → Action    Write outline for application
+Area → Flow → Action              Write outline for application
 ```
 
 There's no single "correct" depth. A standalone task that doesn't belong to any stream lives directly under an Area. A task that's part of a named workstream lives in a Flow. The structure reflects what's actually true about the work.
@@ -126,9 +125,8 @@ Action: [Do] Follow up with client          (repeats: 3 days after completion)
 
 There are two types of recurrence:
 
-**Fixed schedule** — surfaces on a specific date regardless of when the previous instance was completed. Use for work that is calendar-driven: weekly reports, monthly reviews, quarterly tax filings.
-
-**Relative interval** — surfaces a set number of days after the previous completion. Use for work that depends on your own pace: "follow up 3 days after sending a proposal," "review notes 2 days after a meeting."
+- **Fixed schedule** — surfaces on a specific date regardless of when the previous instance was completed. Use for work that is calendar-driven: weekly reports, monthly reviews, quarterly tax filings.
+- **Relative interval** — surfaces a set number of days after the previous completion. Use for work that depends on your own pace: "follow up 3 days after sending a proposal," "review notes 2 days after a meeting."
 
 A recurring Action lives like any other Action in the structure — directly under an Area, or inside a Flow. The only difference is that completion triggers a new instance rather than marking it permanently done.
 

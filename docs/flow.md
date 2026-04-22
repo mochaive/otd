@@ -4,49 +4,6 @@ A Flow is a specific stream of work with ordered steps. Sequential inside, paral
 
 ---
 
-## Flow or Project?
-
-This is the most important decision in OTD's structure. The criterion is one question:
-
-> **"Can I work on multiple independent parts of this at the same time?"**
-
-```
-Can multiple independent parts run at the same time?
-  │
-  ├─ Yes →  Project  (multiple parallel Flows)
-  │              Each Flow surfaces one Action in Today
-  │
-  └─ No  →  Flow  (one sequential thread)
-                  One Action at a time, in order
-```
-
-**Yes → Project** (contains multiple parallel Flows)
-**No → Flow** (one sequential thread)
-
-"Job search" as a Flow:
-```
-Flow: Job search
-1. Update resume
-2. Shortlist target companies
-3. Submit applications
-4. Prepare for interviews
-5. Negotiate offer
-```
-One thread. Each step follows the previous.
-
-"Job search" as a Project:
-```
-Project: Job search
-  ├─ Flow: Resume & portfolio   (can run in parallel with ↓)
-  ├─ Flow: Company research     (can run in parallel with ↓)
-  └─ Flow: Networking           (can run in parallel with ↑)
-```
-Three independent streams. All advance simultaneously.
-
-Neither is wrong — it depends on how the work actually unfolds for you.
-
----
-
 ## What a Flow is
 
 A Flow is where work actually happens in OTD. It's a named stream of sequential Actions aimed at a specific outcome. When a Flow has at least one uncompleted Action, it's active — and its first uncompleted Action surfaces in Today.
@@ -70,9 +27,8 @@ Step 1 is in Today. You complete it. Step 2 surfaces. You complete it. And so on
 
 This is the core design of Flow.
 
-**Sequential inside:** Actions within a Flow have a natural order. The next one surfaces only after the current one is done. You don't have to decide the sequence each morning — the Flow has already decided it.
-
-**Parallel across:** Multiple Flows surface their first Action in Today simultaneously. Three active Flows means three Actions potentially in Today at once, from three different streams of work. They advance independently.
+- **Sequential inside:** Actions within a Flow have a natural order. The next one surfaces only after the current one is done. You don't have to decide the sequence each morning — the Flow has already decided it.
+- **Parallel across:** Multiple Flows surface their first Action in Today simultaneously. Three active Flows means three Actions potentially in Today at once, from three different streams of work. They advance independently.
 
 This is the key departure from GTD. GTD's projects were one sequential chain. OTD's Flows are multiple independent chains running at the same time, each surfacing its front action.
 
@@ -100,24 +56,36 @@ The system assumes sequence. Override it consciously, not reflexively.
 
 ## Flow placement
 
-A Flow lives in one of two places:
+A Flow lives directly under an Area.
 
-**Directly under an Area** — when it's a standalone stream of work not sharing a goal with other Flows:
 ```
 Area: Career
   └─ Flow: Job search
 ```
 
-**Inside a Project** — when multiple Flows share a common goal:
+There is no higher container for Flows. When multiple Flows share a larger goal, group them with a `[[keyword]]` prefix — see below.
+
+---
+
+## Grouping related Flows
+
+Sometimes multiple Flows belong to the same larger goal — for example, two Flows that together make up "App launch." OTD doesn't add a layer above Flow for this. Instead, prefix the related Flow names with `[[keyword]]`:
+
 ```
-Area: Career
-  └─ Project: Company transition
-       ├─ Flow: Job search
-       ├─ Flow: Skill gap prep
-       └─ Flow: Financial runway planning
+Area: Side Projects
+  ├─ Flow: [[App launch]] Build MVP
+  └─ Flow: [[App launch]] Launch marketing
 ```
 
-The question is: does this Flow share a goal with other Flows? If yes, group them under a Project. If no, put the Flow directly under the Area.
+The prefix has three useful properties:
+
+1. **Automatic grouping through sort order.** Under alphabetical (or hangul) sort, these Flows land next to each other. No extra tool feature required.
+2. **Self-cleaning.** When the goal is done and you delete the Flows, the grouping disappears with them. No orphan tags, labels, or folders to clean up.
+3. **Tool-agnostic.** It works in any tool — notes apps, spreadsheets, purpose-built task managers — because alphabetical sort is universal.
+
+If only one Flow serves a goal, don't add a prefix. The prefix only earns its keep when it groups two or more.
+
+`[[keyword]]` is the recommended form, but any consistent prefix — `[keyword]` or `«keyword»` — works the same way. The point is a stable prefix that groups under sort.
 
 ---
 
@@ -152,19 +120,18 @@ These aren't Actions — they're vague intentions. When they surface in Today, y
 
 ---
 
-## Promoting a Flow to a Project
+## Splitting a Flow that's grown too big
 
-You start with one Flow. As work progresses, you realize separate workstreams have emerged that are better handled in parallel. At that point, promote the Flow to a Project.
+You start with one Flow. As work progresses, you realize separate workstreams have emerged that are better handled in parallel. At that point, split the Flow and group the pieces with a shared `[[keyword]]` prefix.
 
-**Signs it's time to promote:**
+**Signs it's time to split:**
 - You've added so many Actions that they're actually two or three independent threads
 - You want to delegate one part while continuing another
 - The "Flow" has become too broad to have a clear sequential order
 
-**How to promote:**
-1. Create a Project with the same name
-2. Split the original Flow's Actions into multiple Flows by workstream
-3. Move all Flows under the new Project
+**How to split:**
+1. Separate the Actions into multiple Flows by workstream
+2. Prefix each new Flow with a shared `[[keyword]]`
 
 ```
 Before — one Flow getting unwieldy:
@@ -176,12 +143,13 @@ Flow: Launch website
   5. SEO audit
   6. Announce on social media
 
-After — promoted to Project:
-Project: Launch website
-  ├─ Flow: Content & design  (copy → mockups → final review)
-  ├─ Flow: Development       (build → analytics → SEO)
-  └─ Flow: Launch            (soft launch → announce → monitor)
+After — split into three parallel Flows:
+Flow: [[Launch website]] Content & design  (copy → mockups → final review)
+Flow: [[Launch website]] Development       (build → analytics → SEO)
+Flow: [[Launch website]] Launch            (soft launch → announce → monitor)
 ```
+
+Under alphabetical sort, the three Flows land next to each other. When the launch is done, just delete the three Flows — there's no separate container to clean up.
 
 ---
 
@@ -197,9 +165,9 @@ This is different from deleting a Flow. You're not abandoning it — you're park
 
 Every active Flow continuously surfaces its next Action. The system keeps moving forward on its own — you just have to do each Action when it arrives.
 
-This means the only way to "finish" a Flow is to complete all its Actions. When the last Action is checked, the Flow is done. That completion feeds directly into the Project's status (if it's inside one) and eventually into the Area's health.
+This means the only way to "finish" a Flow is to complete all its Actions. When the last Action is checked, the Flow is done. That completion feeds into the Area's health.
 
-This chain — Action → Flow → Project → Area — is what makes OTD a coherent system rather than a collection of isolated tasks.
+This chain — Action → Flow → Area — is what makes OTD a coherent system rather than a collection of isolated tasks.
 
 ---
 
@@ -218,8 +186,8 @@ Flow: Weekly report  (repeats: every Friday)
 
 When the last Action is completed, the Flow resets to Action 1. On the next scheduled date, Action 1 surfaces in Today again — as if the Flow is starting fresh.
 
-**From the user's perspective:** the same Flow starts over each cycle.
-**From the tool's perspective:** a new instance is created internally, preserving history. What the user sees is a fresh state.
+- **From the user's perspective:** the same Flow starts over each cycle.
+- **From the tool's perspective:** a new instance is created internally, preserving history. What the user sees is a fresh state.
 
 Use a recurring Flow when:
 - The work repeats regularly and involves more than one step

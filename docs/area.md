@@ -8,7 +8,7 @@ Examples: Career, Health, Finance, Family, Learning, Side Projects, Home.
 
 ## What an Area is
 
-Areas are the top-level containers in OTD. Everything lives inside an Area — Projects, Flows, and standalone Actions all belong to at least one.
+Areas are the top-level containers in OTD. Everything lives inside an Area — Flows and standalone Actions all belong to at least one.
 
 An Area is defined by **ongoing responsibility**, not a goal. You don't complete an Area. You maintain it. "Health" doesn't have a finish line. "Career" doesn't. These are domains you'll be tending for years, decades, for the rest of your life.
 
@@ -48,32 +48,27 @@ Work, Family, Health, Finance, Personal Development, Home
 
 An Area can contain:
 
-- **Projects** — large goals with multiple related Flows
-- **Flows** — specific streams of work (when no Project grouping is needed)
+- **Flows** — specific sequential streams of work
 - **Standalone Actions** — single tasks that don't belong to a Flow
 
 ```
 Area: Health
-  ├─ Project: Annual checkup preparation
-  │    ├─ Flow: Schedule and logistics
-  │    └─ Flow: Pre-exam bloodwork
+  ├─ Flow: [[Annual checkup]] Schedule and logistics
+  ├─ Flow: [[Annual checkup]] Pre-exam bloodwork
   ├─ Flow: Morning routine (ongoing habit work)
   └─ Action: [Do] Book dentist appointment
 ```
 
-Not every Area will have Projects. A Flow can live directly under an Area when it doesn't share a goal with other Flows. A single Action can live directly under an Area when it doesn't belong to any ongoing stream.
+When multiple Flows share a larger goal, group them with a `[[keyword]]` prefix — they land next to each other under alphabetical sort. A single Action can live directly under an Area when it doesn't belong to any ongoing stream.
 
 ---
 
 ## Anti-patterns
 
-**The catch-all Area.** If you have an Area called "Miscellaneous" or "General" that accumulates things that don't fit elsewhere, that's a symptom: either your Areas aren't covering your actual life, or you're avoiding decisions about where things belong. Process those items properly.
-
-**Area as a project.** "Launch new product" is not an Area — it's a Project. Areas are ongoing. Projects end. If your "Area" has a finish line, rename it to a Project and put it inside the appropriate Area (probably Career or Side Projects).
-
-**Too many narrow Areas.** "Fitness" and "Nutrition" and "Sleep" can probably all live under "Health." Splitting them means three Area reviews per Weekly Review instead of one, with little extra clarity to show for it.
-
-**Neglected Areas.** During your Weekly Review, if you consistently skip an Area because "nothing's happening there right now," that's a signal. Either that Area genuinely needs attention and you're avoiding it, or it's not really an Area — it's a dormant Project that belongs in Someday.
+- **The catch-all Area.** If you have an Area called "Miscellaneous" or "General" that accumulates things that don't fit elsewhere, that's a symptom: either your Areas aren't covering your actual life, or you're avoiding decisions about where things belong. Process those items properly.
+- **Area with a finish line.** "Launch new product" is not an Area — it's a goal expressed as one or more Flows. Areas are ongoing. If your "Area" has a finish line, move it inside the appropriate Area (probably Career or Side Projects) as a Flow. If it splits into multiple Flows, group them with a shared prefix like `[[Launch new product]]`.
+- **Too many narrow Areas.** "Fitness" and "Nutrition" and "Sleep" can probably all live under "Health." Splitting them means three Area reviews per Weekly Review instead of one, with little extra clarity to show for it.
+- **Neglected Areas.** During your Weekly Review, if you consistently skip an Area because "nothing's happening there right now," that's a signal. Either that Area genuinely needs attention and you're avoiding it, or it's not really an Area — it's a dormant cluster of Flows that belongs in Someday.
 
 ---
 
@@ -81,6 +76,6 @@ Not every Area will have Projects. A Flow can live directly under an Area when i
 
 Every Area gets reviewed once per week. The question is simple: **Is anything being neglected here?**
 
-You're not auditing every Action in the Area. You're looking at the Area from above: Are its active Flows progressing? Is there work that should be happening that isn't? Is there a Project that's been stalled for too long?
+You're not auditing every Action in the Area. You're looking at the Area from above: Are its active Flows progressing? Is there work that should be happening that isn't? Is there a Flow cluster that's been stalled for too long?
 
 This high-level check is what keeps your entire system honest. Individual tasks surface through Flows and Today. Areas surface the pattern across all of it.

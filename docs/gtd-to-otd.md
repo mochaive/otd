@@ -11,7 +11,6 @@ A migration guide for existing GTD users. What maps to what, what changes, and w
 | Inbox | **Inbox** | Same. Capture channels are wider. |
 | Clarify / Process | **Process** | Adds "who executes?" (Mode) to the decision |
 | Area of Responsibility | **Area** | Identical |
-| *(none)* | **Project** | New: groups multiple related Flows under one goal |
 | Project | **Flow** | Parallel across Flows, sequential within each |
 | Next Action | **Action** | Same: completable in a day |
 | Context (@computer, @phone) | **Mode** (Do/Delegate/Await/Review) | Execution state replaces physical context |
@@ -21,7 +20,7 @@ A migration guide for existing GTD users. What maps to what, what changes, and w
 | Weekly Review | **Daily Review + Weekly Review + Quarterly + Annual** | Full review rhythm |
 | Calendar | **Calendar** | Unchanged |
 | 2-Minute Rule | **2-Minute Rule** | Kept as-is |
-| Goals (H3) | **Goals** | Independent list. Mapped to Projects during Quarterly Review. |
+| Goals (H3) | **Goals** | Independent list. Mapped to Flows during Quarterly Review. |
 | Vision (H4) | **Reference** | Stored as a document. Reviewed annually. |
 | Purpose/Principles (H5) | **Reference** | Stored as a document. Reviewed annually. |
 
@@ -31,19 +30,13 @@ A migration guide for existing GTD users. What maps to what, what changes, and w
 
 These GTD principles carry over intact:
 
-**Capture everything.** The Inbox habit is non-negotiable in both systems. If anything, OTD reinforces this — with wider capture channels, the discipline of routing everything through Inbox matters more.
-
-**Process to zero.** Inbox zero is still the goal. The processing questions are slightly different, but the habit of deciding what each item is — rather than letting it sit — is unchanged.
-
-**Review regularly.** GTD's Weekly Review survives in OTD with an added daily rhythm. The core purpose is identical: a regular audit to keep the system current.
-
-**The 2-minute rule.** Kept without modification. If it takes less than 2 minutes, do it now.
-
-**Actions completable in a day.** GTD's "Next Actions" must be physically completable in one sitting. OTD's Actions must be completable in one day. Same constraint, same reasoning.
-
-**Reference filing.** Non-actionable information goes to Reference. Unchanged.
-
-**Someday/Maybe.** Parking things you might do later. Same concept, extended to Projects and Flows in OTD.
+- **Capture everything.** The Inbox habit is non-negotiable in both systems. If anything, OTD reinforces this — with wider capture channels, the discipline of routing everything through Inbox matters more.
+- **Process to zero.** Inbox zero is still the goal. The processing questions are slightly different, but the habit of deciding what each item is — rather than letting it sit — is unchanged.
+- **Review regularly.** GTD's Weekly Review survives in OTD with an added daily rhythm. The core purpose is identical: a regular audit to keep the system current.
+- **The 2-minute rule.** Kept without modification. If it takes less than 2 minutes, do it now.
+- **Actions completable in a day.** GTD's "Next Actions" must be physically completable in one sitting. OTD's Actions must be completable in one day. Same constraint, same reasoning.
+- **Reference filing.** Non-actionable information goes to Reference. Unchanged.
+- **Someday/Maybe.** Parking things you might do later. Same concept, extended to Flows in OTD.
 
 ---
 
@@ -55,9 +48,9 @@ This is the most significant conceptual shift.
 
 In **GTD**, a "project" is anything requiring more than one action step. "Get car serviced" is a GTD project if it requires making an appointment and then dropping off the car.
 
-In **OTD**, that's a **Flow** — a single stream of sequential work. OTD's "Project" is a higher-level grouping of multiple related Flows.
+In **OTD**, that's a **Flow** — a single stream of sequential work. OTD has no higher "Project" container.
 
-**Migration:** Your GTD projects become OTD Flows. Group related Flows under a Project only when they share a common goal and you have more than one of them.
+**Migration:** Your GTD projects become OTD Flows. When multiple Flows belong to the same larger goal, group them with a shared `[[keyword]]` prefix on their names — no separate container required.
 
 ### Physical contexts → Mode
 
@@ -91,13 +84,10 @@ The promotion matters because delegation is more frequent now. If you're using A
 
 ## Common migration mistakes
 
-**Creating Projects for everything.** Your GTD "projects" are OTD Flows. Don't create a Project container for each one. Only create a Project when you have multiple related Flows sharing a goal.
-
-**Keeping context tags.** Contexts don't do useful work in OTD. Remove them. Mode is doing their job now.
-
-**Resisting parallel Flows.** GTD trained you to focus on one thing at a time. OTD allows parallel work. Let yourself advance multiple Flows per day. Trust the system to surface one Action per Flow so the volume stays manageable.
-
-**Over-migrating.** You don't have to convert everything perfectly before you start. Process your Inbox with OTD's two questions. Let the structure build itself as you work. Perfect migration is not required — working migration is.
+- **Looking for a container above Flow.** There isn't one. Your GTD "projects" are just OTD Flows. When multiple Flows share a goal, group them with a `[[keyword]]` prefix — not a container.
+- **Keeping context tags.** Contexts don't do useful work in OTD. Remove them. Mode is doing their job now.
+- **Resisting parallel Flows.** GTD trained you to focus on one thing at a time. OTD allows parallel work. Let yourself advance multiple Flows per day. Trust the system to surface one Action per Flow so the volume stays manageable.
+- **Over-migrating.** You don't have to convert everything perfectly before you start. Process your Inbox with OTD's two questions. Let the structure build itself as you work. Perfect migration is not required — working migration is.
 
 ---
 
@@ -129,10 +119,10 @@ GTD introduced six horizons for thinking about your work at different altitudes.
 
 The key structural difference: GTD treats all six horizons as separate lists with no explicit connection mechanism. OTD builds the connections in:
 
-- **Goals** map to **Projects** during Quarterly Review
+- **Goals** map to **Flows** during Quarterly Review
 - **Vision** informs whether your **Goals** are pointing in the right direction
 - **Purpose** is the check on whether your **Vision** reflects what you actually value
 
-The cascade runs both ways: Purpose → Vision → Goals → Projects → Flows → Actions → Today. And every Review level checks alignment with the level above it.
+The cascade runs both ways: Purpose → Vision → Goals → Flows → Actions → Today. And every Review level checks alignment with the level above it.
 
 The migration doesn't have to happen in one session. Many people run a hybrid system during transition — processing new items with OTD's questions while existing GTD projects gradually migrate as they're worked through. That's fine.
