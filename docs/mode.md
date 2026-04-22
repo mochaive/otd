@@ -68,11 +68,9 @@ Review is often fast — a few minutes to look at a document, an AI output, or a
 
 This is not a suggestion. It's the designed order for working through Today.
 
-**Review first.** Results are already waiting. Clearing a Review takes minutes and unblocks the next Action in that Flow. If you leave Reviews sitting, Flows that could be advancing are frozen.
-
-**Delegate second.** Sending instructions is fast. The sooner you send, the sooner results come back. While your delegate is working, you can work on other things. Every hour you delay a Delegate is an hour of parallel work you're not getting.
-
-**Do last.** Direct execution takes the most time and focus. By handling Reviews and Delegates first, you've set other Flows in motion. Now you can give your full attention to Do work without knowing you've left other things blocked.
+- **Review first.** Results are already waiting. Clearing a Review takes minutes and unblocks the next Action in that Flow. If you leave Reviews sitting, Flows that could be advancing are frozen.
+- **Delegate second.** Sending instructions is fast. The sooner you send, the sooner results come back. While your delegate is working, you can work on other things. Every hour you delay a Delegate is an hour of parallel work you're not getting.
+- **Do last.** Direct execution takes the most time and focus. By handling Reviews and Delegates first, you've set other Flows in motion. Now you can give your full attention to Do work without knowing you've left other things blocked.
 
 Within the same Mode, the order is yours to decide. Choosing between two Do items is a lightweight call — it involves your judgment about priority, energy, and context. That's Principle 2: you design your day. But Mode makes that decision smaller. Instead of choosing between 10 undifferentiated items, you're choosing between 2–3 items in the same Mode.
 
@@ -138,11 +136,9 @@ If no — be specific about what's wrong. Vague disapproval ("this isn't quite r
 
 AI output has a characteristic failure mode: it's fluent and plausible but wrong in a specific way you have to catch. The review discipline is different from reviewing human work.
 
-**Check for what's absent, not just what's present.** AI tends to give you what you asked for in the framing you gave. If your framing was incomplete, the output will be complete-looking but missing something. Ask: "What did I expect that's not here?"
-
-**Spot the confident errors.** AI is equally fluent when it's right and when it's wrong. Scan for factual claims, numbers, and attributions. These are the most common sources of confident errors.
-
-**Don't edit what should be re-delegated.** If more than 20–30% of the output needs changing, re-delegate with better instructions rather than editing yourself. Editing an output that's fundamentally off-track is slower than starting over with a better prompt.
+- **Check for what's absent, not just what's present.** AI tends to give you what you asked for in the framing you gave. If your framing was incomplete, the output will be complete-looking but missing something. Ask: "What did I expect that's not here?"
+- **Spot the confident errors.** AI is equally fluent when it's right and when it's wrong. Scan for factual claims, numbers, and attributions. These are the most common sources of confident errors.
+- **Don't edit what should be re-delegated.** If more than 20–30% of the output needs changing, re-delegate with better instructions rather than editing yourself. Editing an output that's fundamentally off-track is slower than starting over with a better prompt.
 
 ### When to stop delegating and just Do it
 

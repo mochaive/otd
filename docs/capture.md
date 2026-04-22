@@ -14,11 +14,9 @@ Capture is not the time to decide what something is or where it belongs. That's 
 
 ## The rules
 
-**Capture immediately.** When something enters your awareness, capture it right away. Don't try to hold it in your head until a convenient moment. The moment you think "I should do something about this" — that's when it goes to Inbox.
-
-**Don't process while capturing.** Capture is not the time to decide where something belongs or whether it's worth doing. Just get it out. Processing comes later.
-
-**One Inbox.** Everything enters through a single point. If you have five different places things can land — a notebook, two apps, your email inbox, voice memos — you'll always be wondering if you missed something. One Inbox eliminates that anxiety.
+- **Capture immediately.** When something enters your awareness, capture it right away. Don't try to hold it in your head until a convenient moment. The moment you think "I should do something about this" — that's when it goes to Inbox.
+- **Don't process while capturing.** Capture is not the time to decide where something belongs or whether it's worth doing. Just get it out. Processing comes later.
+- **One Inbox.** Everything enters through a single point. If you have five different places things can land — a notebook, two apps, your email inbox, voice memos — you'll always be wondering if you missed something. One Inbox eliminates that anxiety.
 
 ---
 

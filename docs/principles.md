@@ -75,11 +75,9 @@ Many productivity systems create a specific kind of harm: the sense that you're 
 
 OTD is designed against this.
 
-**There is no overdue list.** Actions that aren't completed today return to their Flows and surface again tomorrow. They don't accumulate in a pile of guilt. The list doesn't grow. Tomorrow starts fresh.
-
-**"Today is empty" is a real completion signal.** Not "it's 6pm," not "I'm tired," not "I ran out of willpower." Today is empty. The Actions you chose this morning are done. That's an objective measure of a completed day — not a comparison against some ideal of maximum output.
-
-**You set the standard each morning.** During Daily Review, you choose which Actions go into Today. You're not measured against everything that could possibly be done. You're measured against what you decided to do today. If Today is empty, you succeeded — by the standard you set for yourself.
+- **There is no overdue list.** Actions that aren't completed today return to their Flows and surface again tomorrow. They don't accumulate in a pile of guilt. The list doesn't grow. Tomorrow starts fresh.
+- **"Today is empty" is a real completion signal.** Not "it's 6pm," not "I'm tired," not "I ran out of willpower." Today is empty. The Actions you chose this morning are done. That's an objective measure of a completed day — not a comparison against some ideal of maximum output.
+- **You set the standard each morning.** During Daily Review, you choose which Actions go into Today. You're not measured against everything that could possibly be done. You're measured against what you decided to do today. If Today is empty, you succeeded — by the standard you set for yourself.
 
 This doesn't mean working less. It means working without the background noise of "I should be doing more." That noise is expensive. It degrades focus, produces anxiety, and eventually leads to abandoning the system entirely to escape the judgment it represents.
 

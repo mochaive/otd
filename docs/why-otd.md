@@ -32,11 +32,9 @@ The other thing that changed: AI. Once you have access to AI that can actually e
 
 Three things, in priority order:
 
-**Overwhelm.** When Today contains only what you can genuinely finish, the system tells you when you're done. Not "it's 6pm" — actually done. No backlog accumulating. No guilt carrying over. The feedback loop works.
-
-**Priority paralysis.** Each stream of work surfaces one action at a time. You don't choose between thirty items every morning. You choose between five or six, and within each one, the order is already decided. The cognitive load of "what do I do next?" drops sharply.
-
-**Parallel work.** Delegation is first-class. Await is first-class. Review is first-class. The system is built for a day where you're simultaneously waiting on three people, reviewing two AI outputs, and directly doing two more things. That's normal now. The framework should treat it as normal.
+- **Overwhelm.** When Today contains only what you can genuinely finish, the system tells you when you're done. Not "it's 6pm" — actually done. No backlog accumulating. No guilt carrying over. The feedback loop works.
+- **Priority paralysis.** Each stream of work surfaces one action at a time. You don't choose between thirty items every morning. You choose between five or six, and within each one, the order is already decided. The cognitive load of "what do I do next?" drops sharply.
+- **Parallel work.** Delegation is first-class. Await is first-class. Review is first-class. The system is built for a day where you're simultaneously waiting on three people, reviewing two AI outputs, and directly doing two more things. That's normal now. The framework should treat it as normal.
 
 ---
 
