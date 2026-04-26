@@ -92,6 +92,10 @@ export default defineConfig({
   title: 'OTD',
   description: 'Orchestrating Things Done — A personal task management framework for the AI era.',
 
+  sitemap: {
+    hostname: 'https://otd.mochaive.com'
+  },
+
   locales: {
     root: {
       label: 'English',
@@ -133,7 +137,13 @@ export default defineConfig({
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
-    ['meta', { name: 'theme-color', content: '#1b1b1f' }]
+    ['meta', { name: 'theme-color', content: '#1b1b1f' }],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-W61CMWGQ01' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-W61CMWGQ01');`],
+    ['script', { defer: '', src: 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon': '{"token": "73309c73d38942c2b2fd9069b2869249"}' }]
   ],
 
 })
