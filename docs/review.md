@@ -54,9 +54,11 @@ Daily Review is deliberately short. Its purpose is not to think deeply about you
 
 ### When Daily Review breaks down
 
-If you skip Daily Review, Today doesn't get curated. You either work from whatever the system surfaced automatically (which might be technically correct but not what you actually need today) or you don't know what to work on at all.
+If you skip Daily Review, Today doesn't get curated. You work from whatever the system surfaced automatically. On most days, that's actually fine — the auto-filled slate is calibrated to your active Flows, and executing it as-is is a valid working mode (see [Principle 2](/principles#_2-curate-your-day-design-your-life)).
 
-Missing one Daily Review is fine. Missing a week means you've been working reactively — responding to whatever arrives instead of designing your day. Principle 2 erodes.
+What's not fine is skipping Weekly Review on top of that. Daily skips are recoverable; weekly skips are where agency actually erodes. If you've been running on auto-fill for a week, your Weekly Review becomes the moment that everything depends on — what's stuck, what's closing, what's activating. Skip both and you're in Drift: the system runs, but no one is steering.
+
+The honest test: when did you last *decide* something about your active set? If the answer is "I can't remember," it's been too long.
 
 ---
 
@@ -79,16 +81,30 @@ Work through the five [Stuck Signals](/stuck) systematically. For each flagged i
 
 - **Stuck Action** (3+ days in Today): Split / Rewrite / Keep (deliberate) / Delete
 - **Stale Await** (7+ days no response): Follow up / Re-delegate / Cancel
-- **Stalled Flow** (2+ weeks no completion): Keep active (with reason) / Someday / Delete
-- **Dormant cluster** (1+ month no progress across the cluster): Park cluster / Dissolve / Keep
+- **Stalled Flow** (2+ weeks no completion): Keep active (with reason) / Someday / Wishlist / Delete
+- **Dormant cluster** (1+ month no progress across the cluster): Park cluster / Demote to Wishlist / Dissolve / Keep
 
 The point of this section is threshold-based auditing by category. A vague "are my Areas and Flows OK?" scan is less honest than checking against explicit thresholds.
 
 ### Investigate Chronic Today causes
 If Daily Review hit a Chronic Today state this week, use Weekly Review to find the structural cause: Too many active Flows? Actions consistently too large? Relying on manual additions? Fix the cause, not the symptom.
 
-### Review Someday
-Anything ready to activate? Anything you'll never actually do that should be deleted? Someday should never just grow — it should be pruned.
+### Review Someday and Wishlist
+
+These are two layers, not one. Treat them differently.
+
+**Someday** — apply aging-out honesty. For each item:
+- Is this ready to activate now? (If yes, activation triggers [Principle 3](/principles#_3-close-before-you-open) — decide what's closing.)
+- Has this lived in Someday for 6+ months without serious activation consideration? Demote to Wishlist, delete, or re-commit with a stated trigger.
+- Does this still have a real activation trigger? If you can't say what would make you start, the intention isn't real. Demote or delete.
+
+Someday should be small and honest. It's a waiting room, not a graveyard.
+
+**Wishlist** — light scan. For each item:
+- Does this still spark interest? If yes, leave it. If no, delete.
+- Is this crystallizing into a real plan? If you can now say what step 1 would be, promote to Someday.
+
+Wishlist has no aging pressure. Items can live there indefinitely without cost.
 
 ### Review Goals
 Look at your active Goals. For each one: are there Flows currently advancing toward it? Is anything blocked or missing? This doesn't need to be deep — two minutes scanning the list is enough. If a Goal has no active Flow, consider activating one.
@@ -107,10 +123,14 @@ The Weekly Review keeps the system running. The Quarterly Review keeps it pointe
 **Checklist:**
 
 - **Review each Goal.** Is it still relevant? Update the wording, retire Goals that no longer apply, add new ones that have emerged.
-- **Map Goals to Flows.** For each Goal: which Flows are currently serving it? Are there Goals with no active Flows? Activate one. Are there Flows that don't serve any Goal? Consider moving them to Someday.
-- **Re-evaluate dormant clusters.** For any `[[keyword]]` cluster flagged as dormant during Weekly Review, revisit its Goal mapping now. If it still maps to a valid Goal, reactivate or re-scope it. If not, commit to deletion or long-term Someday.
+- **Map Goals to Flows.** For each Goal: which Flows are currently serving it? Are there Goals with no active Flows? Activate one — and apply [Principle 3](/principles#_3-close-before-you-open) to make room. Are there Flows that don't serve any Goal? Consider moving them to Someday or Wishlist.
+- **Re-evaluate dormant clusters.** For any `[[keyword]]` cluster flagged as dormant during Weekly Review, revisit its Goal mapping now. Three paths:
+  - **Reactivate** — the Goal is real and the cluster maps to it. Open the trade required by Principle 3.
+  - **Park to Someday** — the Goal still matters but the timing isn't right. Define the trigger that would activate it.
+  - **Demote to Wishlist or dissolve** — the Goal is no longer central. Don't keep clusters as commitments when they aren't.
+- **Audit the active Flow set.** Is the active set still inhabitable? If Chronic Today recurred this quarter, this is where to fix it — at the level of which Flows are activated, not which Actions are surfacing.
 - **Look ahead.** What's coming in the next quarter that needs preparation now?
-- **Update Someday.** Anything in Someday that's ready to activate given current Goals?
+- **Sweep Someday and Wishlist.** Quarterly is the deeper cleanup pass that Weekly Reviews don't have time for. Items aged 6+ months in Someday — demote to Wishlist or delete. Items in Wishlist that have lost interest — delete.
 
 The Quarterly Review is where Goal ↔ Flow alignment happens explicitly. Weekly Review checks it briefly. Quarterly Review does the proper audit.
 

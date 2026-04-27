@@ -16,8 +16,8 @@ hero:
 features:
   - title: 작업 흐름마다 자기 레인.
     details: 각 활성 프로젝트와 책임에서 한 번에 하나의 Action이 올라옵니다. 평평한 목록 없음. 수동 우선순위 결정 없음. 다음 단계가 항상 명확합니다.
-  - title: 오늘을 직접 설계한다.
-    details: 매일 아침 Today에 무엇을 넣을지 결정합니다. 시스템이 선택지를 올리고 — 무엇이 중요한지는 당신이 결정합니다. Today가 비면 오늘 할 일이 끝난 것입니다.
+  - title: 시스템이 올리고, 너는 큐레이트한다.
+    details: 활성 Flow들이 첫 Action을 자동으로 Today에 채웁니다. 가볍게 큐레이트하거나, 필요하면 바꾸거나, 그냥 실행해도 됩니다. Today가 비면 오늘 할 일이 끝난 것입니다.
   - title: 위임이 1급 개념.
     details: Do, Delegate, Await, Review — 동등한 가시성을 가진 네 가지 Mode. 동료에게든, 외주에게든, AI에게든 위임하면, 빠지는 것이 없습니다.
 ---
@@ -49,6 +49,8 @@ OTD는 이 구체적인 실패들을 위해 만들어졌다.
 | **Action** | 작업의 최소 단위. 하루 안에 완료 가능. |
 | **Mode** | Do / Delegate / Await / Review — 누가 실행하고 어떤 상태인가. |
 | **Today** | 오늘 건드릴 Action들의 모음. 비면 오늘 할 일이 끝난 것. |
+| **Someday** | 미뤄둔 commitment. 돌아올 의도가 있고 시점만 멈춰 있다. |
+| **Wishlist** | commitment 없는 가능성. 의무 없이 보관하는 아이디어. |
 | **Stuck Signals** | 임계치 기반 정체 진단. Action, Await, Flow, 묶음, Today 각 레벨에서 결정을 강제한다. |
 | **Goals** | 1~2년 방향. 분기별 검토, Flow와 매핑. |
 | **Reference** | 보관할 비실행 정보. Vision과 Purpose를 담는다. |

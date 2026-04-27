@@ -153,11 +153,18 @@ Flow: [[웹사이트 런칭]] 런칭              (소프트 런칭 → 공지 �
 
 ---
 
-## Someday Flow
+## Someday와 Wishlist Flow
 
-지금 작업하지 않을 Flow는 Someday로 옮긴다. Today에 Action을 올리지 않는다. Weekly Review의 Someday 목록에서 검토된다.
+지금 작업하지 않을 Flow는 두 가지 보관 목적지가 있다:
 
-이건 삭제와 다르다. 포기하는 게 아니라 보관하는 것이다. 상황이 바뀌면 (시간이 생기고, 기회가 돌아오고, 목표가 다시 관련성을 가지면) 활성화하면 다시 Action을 올리기 시작한다.
+- **Someday** — 이 Flow로 돌아올 의도가 있다; 시점만 멈춘 것이다. 1단계가 이미 정의돼 있다.
+- **Wishlist** — 아이디어를 commitment가 아닌 가능성으로 보관한다. Flow가 충분히 오래 stall되어 "곧 손댈게"가 더 이상 정직하지 않을 때 자주 가는 곳.
+
+둘 다 Today에 Action을 올리지 않는다. 둘 다 Weekly Review에서 검토된다.
+
+이건 삭제와 다르다. 포기하는 게 아니라 실제 진실인 commitment 수준에 보관하는 것이다. 상황이 바뀌면 둘 중 어느 계층에서든 활성화한다 (활성화는 [원칙 3](/ko/principles#_3-새로-열기-전에-닫아라)을 발동시킨다 — 자리를 만들기 위해 무엇이 닫히는지 결정한다).
+
+전체 구분은 [Today, Someday & Wishlist](/ko/today-someday-wishlist)를 참조한다.
 
 ---
 

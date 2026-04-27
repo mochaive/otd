@@ -71,7 +71,7 @@ Every item in Today was completable today — by design. An empty Today means re
 
 If you have energy left after Today is empty, you have options:
 - **Preview upcoming Actions** — look at what's next in your Flows
-- **Review Someday** — is anything ready to activate?
+- **Review Someday or Wishlist** — is anything ready to activate? (If yes, [Principle 3](/principles#_3-close-before-you-open) applies — decide what's closing.)
 - **Extend with additional Actions** — pull more from active Flows if you want to keep going
 - **Stop** — an empty Today is permission to stop. You've done what you set out to do.
 

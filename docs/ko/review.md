@@ -54,9 +54,11 @@ Daily Review는 의도적으로 짧다. 목적은 시스템에 대해 깊이 생
 
 ### Daily Review가 무너질 때
 
-Daily Review를 건너뛰면, Today가 조율되지 않는다. 시스템이 자동으로 올린 것들로 작업하거나 (기술적으로 맞을 수 있지만 오늘 실제로 필요한 게 아닐 수 있다), 아예 뭘 해야 할지 모른다.
+Daily Review를 건너뛰면, Today가 큐레이트되지 않는다. 시스템이 자동으로 올린 것들로 작업하게 된다. 대부분의 날엔 사실 그래도 괜찮다 — 자동으로 채워진 slate는 너의 활성 Flow에 맞춰 calibrate되어 있고, 그대로 실행하는 것도 valid한 작업 방식이다 (자세히는 [Principle 2](/ko/principles#_2-오늘을-큐레이트하고-삶을-설계하라) 참고).
 
-하루 Daily Review를 빠뜨리는 건 괜찮다. 일주일을 빠뜨리면 반응적으로 일하고 있다는 의미다 — 하루를 설계하는 대신 들어오는 것에 반응하는 것. 원칙 2가 무너진다.
+문제는 그 위에 Weekly Review까지 건너뛰는 경우다. 매일의 스킵은 회복 가능하지만, 매주의 스킵이 진짜로 주체성이 침식되는 자리다. 일주일째 자동 slate로만 굴러가고 있다면, Weekly Review가 모든 것이 의존하는 순간이 된다 — 무엇이 멈췄는지, 무엇이 닫히는지, 무엇이 활성화되는지. 둘 다 건너뛰면 너는 Drift다: 시스템은 굴러가지만 아무도 키를 잡고 있지 않다.
+
+정직한 자가 진단: 네가 활성 집합에 대해 *결정*을 내린 게 마지막으로 언제였나? 답이 "기억 안 남"이면 너무 오래된 거다.
 
 ---
 
@@ -79,16 +81,30 @@ Daily Review를 건너뛰면, Today가 조율되지 않는다. 시스템이 자�
 
 - **Stuck Action** (3일+ Today 잔존): Split / Rewrite / Keep (의식적) / Delete
 - **Stale Await** (7일+ 응답 없음): Follow up / Re-delegate / Cancel
-- **Stalled Flow** (2주+ Action 완료 없음): Keep active(이유 명시) / Someday / Delete
-- **Dormant Cluster** (1달+ 전체 전진 없음): Park / Dissolve / Keep
+- **Stalled Flow** (2주+ Action 완료 없음): Keep active(이유 명시) / Someday / Wishlist / Delete
+- **Dormant Cluster** (1달+ 전체 전진 없음): Park / Wishlist 강등 / Dissolve / Keep
 
 Stuck Signal을 각 범주별로 검토하는 게 이 섹션의 핵심이다. "모든 Area/Flow가 잘 굴러가는지"를 막연히 보는 것보다, 임계치 기반 점검이 더 정직하다.
 
 ### Chronic Today 원인 분석
 Daily Review에서 Chronic Today 상태를 만났다면, Weekly Review에서 구조적 원인을 찾는다: 활성 Flow가 너무 많은가? Action 크기가 전반적으로 큰가? 수동 추가에 의존하고 있는가? 증상이 아니라 원인을 고친다.
 
-### Someday 검토
-활성화할 것이 있는가? 실제로 영원히 안 할 것이라 삭제해야 할 것이 있는가? Someday는 그냥 자라면 안 된다 — 가지치기 해야 한다.
+### Someday와 Wishlist 검토
+
+이 둘은 별개의 계층이다. 다르게 다룬다.
+
+**Someday** — 노화 처리의 정직함을 적용한다. 각 항목에 대해:
+- 지금 활성화할 준비가 됐는가? (그렇다면 활성화는 [원칙 3](/ko/principles#_3-새로-열기-전에-닫아라)을 발동시킨다 — 무엇이 닫히는지 결정한다.)
+- Someday에 6개월 이상 살았으면서 진지하게 활성화를 고려한 적이 없는가? Wishlist로 강등, 삭제, 또는 명시된 트리거와 함께 재commitment.
+- 여전히 진짜 활성화 트리거가 있는가? 무엇이 시작하게 만들지 말할 수 없다면, 의도가 진짜가 아니다. 강등 또는 삭제.
+
+Someday는 작고 정직해야 한다. 묘지가 아니라 대기실이다.
+
+**Wishlist** — 가벼운 훑기. 각 항목에 대해:
+- 아직 흥미로운가? 예라면 둔다. 아니오라면 삭제.
+- 진짜 계획으로 결정화되고 있는가? 이제 1단계를 말할 수 있다면 Someday로 승격.
+
+Wishlist는 노화 압박이 없다. 비용 없이 무기한 살 수 있다.
 
 ### Goal 점검
 활성 Goal을 훑는다. 각 Goal에 대해: 현재 이 방향으로 전진 중인 Flow가 있는가? 막히거나 빠진 것이 있는가? 깊이 파고들 필요 없다 — 2분간 목록 스캔으로 충분하다. 활성 Flow가 없는 Goal이 있다면 하나를 활성화하는 것을 고려한다.
@@ -107,10 +123,14 @@ Weekly Review가 시스템을 돌아가게 유지한다. 분기 Review가 올바
 **체크리스트:**
 
 - **각 Goal 검토.** 여전히 관련 있는가? 표현을 업데이트하고, 더 이상 맞지 않는 Goal은 은퇴시키고, 새로 생긴 Goal을 추가한다.
-- **Goal과 Flow 매핑.** 각 Goal에 대해: 현재 기여 중인 Flow는 무엇인가? 활성 Flow가 없는 Goal이 있는가? 하나를 활성화한다. 어떤 Goal에도 기여하지 않는 Flow가 있는가? Someday 이동을 고려한다.
-- **Dormant Cluster 재판단.** Weekly Review에서 `[[키워드]]` 묶음이 Dormant로 식별됐다면, 분기 Review에서 해당 묶음의 Goal 매핑을 다시 본다. 여전히 유효한 Goal에 연결되어 있다면 활성화하거나 범위를 재조정한다. 아니라면 삭제 또는 장기 Someday로 확정.
+- **Goal과 Flow 매핑.** 각 Goal에 대해: 현재 기여 중인 Flow는 무엇인가? 활성 Flow가 없는 Goal이 있는가? 하나를 활성화한다 — 자리를 만들기 위해 [원칙 3](/ko/principles#_3-새로-열기-전에-닫아라)을 적용한다. 어떤 Goal에도 기여하지 않는 Flow가 있는가? Someday나 Wishlist 이동을 고려한다.
+- **Dormant Cluster 재판단.** Weekly Review에서 Dormant로 식별된 `[[키워드]]` 묶음에 대해, 분기 Review에서 Goal 매핑을 다시 본다. 세 가지 경로:
+  - **재활성화** — Goal이 진짜이고 묶음이 거기 매핑된다. 원칙 3이 요구하는 거래를 연다.
+  - **Someday로 park** — Goal은 여전히 중요하지만 시점이 아니다. 활성화 트리거를 정의한다.
+  - **Wishlist 강등 또는 dissolve** — Goal이 더 이상 핵심이 아니다. commitment가 아닌 묶음을 commitment로 보관하지 않는다.
+- **활성 Flow 집합 점검.** 활성 집합이 여전히 살 만한가? 이번 분기에 Chronic Today가 반복됐다면, 여기서 고친다 — 어떤 Action이 올라오는지가 아니라 어떤 Flow가 활성화되어 있는지 차원에서.
 - **앞을 내다본다.** 다음 분기에 지금 준비가 필요한 것이 있는가?
-- **Someday 업데이트.** 현재 Goal을 감안했을 때 활성화할 준비가 된 Someday 항목이 있는가?
+- **Someday와 Wishlist 정리.** 분기 Review는 Weekly Review가 시간이 부족해 못 하는 더 깊은 정리 패스다. Someday에서 6개월 이상 노화한 항목 — Wishlist 강등 또는 삭제. Wishlist에서 흥미를 잃은 항목 — 삭제.
 
 분기 Review는 Goal ↔ Flow 정렬이 명시적으로 이루어지는 곳이다. Weekly Review에서는 간략히 확인한다. 분기 Review에서 본격적인 점검을 한다.
 

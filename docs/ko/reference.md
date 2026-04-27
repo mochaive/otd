@@ -13,7 +13,7 @@ Reference는 작업이 아닌 정보를 담는 시스템의 영역이다. 메모
 - 예 → Action이나 Flow다
 - 아니오 → Reference다
 
-Reference는 Someday가 아니다. Someday는 미래에 행동할 수 있는 것을 담는다. Reference는 미래에 조회할 수 있는 것을 담는다. 차이는 잠재적 Action이 붙어 있는지 여부다.
+Reference는 Someday나 Wishlist가 아니다. Someday는 나중에 할 의도가 있는 것들을 담는다. Wishlist는 할 수도 안 할 수도 있는 가능성을 담는다. Reference는 조회할 수 있는 것들을 담는다 — 지금도 미래에도 행동 없음.
 
 ---
 
@@ -63,11 +63,17 @@ OTD는 Reference를 어떻게 정리할지 규정하지 않는다. 원칙은 간
 
 ---
 
-## Reference vs. Someday
+## Reference vs. Someday vs. Wishlist
 
-둘 다 활성 시스템에 없는 것들이다. 차이는:
+활성 시스템에 없는 세 곳:
 
 - **Reference** — 미래 Action 없음. 조회할 수 있다. 행동하지는 않는다.
-- **Someday** — 잠재적 미래 Action. 활성화할 수 있다. 일어날 Flow 또는 Action이 있다.
+- **Someday** — 미뤄둔 commitment. 행동할 의도가 있고 시점만 멈춰 있다. 1단계를 식별할 수 있다.
+- **Wishlist** — commitment 없는 가능성. 할 수도 있고 안 할 수도 있다. 계획이 아니라 그냥 아이디어.
 
-확신이 없다면: "이것에 언젠가 뭔가를 해야 할까?"를 묻는다. 예라면 Someday. 아니오라면 (그냥 정보라면) Reference.
+판별 질문:
+
+- "이것에 언젠가 **무언가를 해야 할까**?" — 아니오 → Reference. 예 → Someday 또는 Wishlist.
+- "활성화의 1단계가 뭐가 될지 말할 수 있는가?" — 예 → Someday. 아니오 → Wishlist.
+
+전체 계층은 [Today, Someday & Wishlist](/ko/today-someday-wishlist#세-계층의-관계)를 참조한다.

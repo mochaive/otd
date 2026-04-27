@@ -16,8 +16,8 @@ hero:
 features:
   - title: One lane per stream of work.
     details: Each active project or responsibility surfaces one action at a time. No flat lists. No manual prioritization. The next step is always clear.
-  - title: You design your day.
-    details: Every morning you choose what goes into Today. The system surfaces the options — you decide what matters. When Today is empty, you're done.
+  - title: The system surfaces. You curate.
+    details: Active Flows auto-fill Today with their front Actions. Curate lightly, swap if needed, or just execute. When Today is empty, you're done.
   - title: Delegation is first-class.
     details: Do, Delegate, Await, Review — four modes with equal visibility. Whether you're handing off to a colleague, a contractor, or AI, nothing falls through.
 ---
@@ -49,6 +49,8 @@ OTD is built for these specific failures.
 | **Action** | The smallest unit of work. Completable in a single day. |
 | **Mode** | Do / Delegate / Await / Review — who executes and what state. |
 | **Today** | The Actions you will touch today. When empty, your day is done. |
+| **Someday** | Deferred commitments. You intend to return; the timing is paused. |
+| **Wishlist** | Uncommitted possibilities. Ideas you're keeping without obligation. |
 | **Stuck Signals** | Threshold-based decay detection. Forces a decision at the Action, Await, Flow, cluster, and Today levels. |
 | **Goals** | 1–2 year directions. Reviewed quarterly, mapped to Flows. |
 | **Reference** | Non-actionable information to keep. Holds Vision and Purpose. |

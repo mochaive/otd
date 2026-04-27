@@ -67,7 +67,27 @@ Today holds flexible Actions you've chosen for the day — no specific time. You
 
 There's no fixed number. It depends on how much parallel work you can actually advance in a day. If you have 15 active Flows, 15 Actions will surface in Today — that might be too many. If you have 3, 3 will surface — that might feel too few.
 
-A practical starting point: 5–10 active Flows is manageable for most people. Move anything you're not actively advancing to Someday.
+A practical starting point: 5–10 active Flows is manageable for most people. Move anything you're not actively advancing to Someday or Wishlist. [Principle 3](/principles#_3-close-before-you-open) is the discipline that keeps this honest — when you reach for a new Flow, decide what's leaving.
+
+---
+
+**What's the difference between Someday and Wishlist?**
+
+Someday is **deferred commitment**: you intend to do this, just not now, and you can say what step 1 would be. Wishlist is **uncommitted possibility**: you might do this, or you might not — it's an idea you're keeping without obligation.
+
+The discriminator question is operational: *"At the moment I activate this, can I say what step 1 is?"* Yes → Someday. No → Wishlist.
+
+The split matters because GTD's combined Someday/Maybe blends these into one list, where deferred commitments accumulate guilt and idle possibilities accumulate pressure. Splitting them lets each list do its job: Someday stays small and honest (with a 6-month aging-out threshold), Wishlist stays open and guilt-free (no aging pressure). See [Today, Someday & Wishlist](/today-someday-wishlist).
+
+---
+
+**Do I have to close something every time I start a new Flow?**
+
+Yes — that's [Principle 3](/principles#_3-close-before-you-open). When you activate a new Flow, pair it with a closing decision: complete an existing Flow, move one to Someday, demote one to Wishlist, or delete one.
+
+This isn't restricting parallel work. OTD is built for parallel Flows — multiple streams advancing simultaneously is the core of the framework. Principle 3 restricts the **size** of the active set, not the parallelism of it. 5–10 Flows running in parallel is normal. The principle activates at the margin: when you'd grow the set past what you can actually finish.
+
+The reason it's a principle: starting is structurally cheap, closing is structurally expensive. Without forcing a trade, the active set silently bloats until Today becomes uncompleteable. The trade keeps the set inhabitable.
 
 ---
 

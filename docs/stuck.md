@@ -8,7 +8,7 @@ The system advances on its own — but it can also quietly freeze. Stuck Signals
 
 GTD's biggest failure mode is "something silently stopped moving and nobody noticed." OTD's `Today is empty → I'm done` signal exposes day-level progress, but day-level visibility alone isn't enough. Decay that builds over days, weeks, or months needs its own diagnostic layer.
 
-Stuck Signals **don't make decisions for you**. Principle 2 (design your own day) still holds. A signal just makes the decision unavoidable — you pick the resolution.
+Stuck Signals **don't make decisions for you**. Principle 2 (curate your day, design your life) still holds. A signal just makes the decision unavoidable — you pick the resolution.
 
 ---
 
@@ -45,7 +45,8 @@ Stuck Signals **don't make decisions for you**. Principle 2 (design your own day
 
 **Resolutions:**
 - **Keep active** — With stated reason. Deliberate, not default.
-- **Move to Someday** — Acknowledge you're not doing this now. Park it.
+- **Move to Someday** — You intend to return to this; the timing is paused.
+- **Demote to Wishlist** — You're keeping it as a possibility, not a commitment. Use this when the Flow keeps stalling and "I'll get to it" no longer feels honest.
 - **Delete** — It's no longer relevant.
 
 ### 4. Dormant cluster
@@ -55,7 +56,8 @@ Stuck Signals **don't make decisions for you**. Principle 2 (design your own day
 **Causes:** The larger goal is no longer an active priority.
 
 **Resolutions:**
-- **Park the whole cluster to Someday** — Not individual Flows; the whole goal goes dormant.
+- **Park the whole cluster to Someday** — Not individual Flows; the whole goal goes dormant. The intention to return remains.
+- **Demote the cluster to Wishlist** — The goal is still interesting, but you're not committing. Step 1 of activation would now be "decide whether this is real." Common when a Someday cluster has aged 6+ months without movement.
 - **Dissolve the cluster** — Delete some Flows, relocate others to different parts of the Area. You keep fragments but retire the goal itself.
 - **Keep active** — With stated reason. Revisit at Quarterly Review.
 
@@ -70,10 +72,12 @@ Stuck Signals **don't make decisions for you**. Principle 2 (design your own day
 
 **Resolutions:**
 - **Audit Action sizes** — Can every Action in Today actually be completed today? If not, split.
-- **Reduce active Flows** — Move some to Someday. 5–10 is manageable for most.
-- **Restrain manual additions** — Principle 2 is "design your day," not "overload it."
+- **Reduce active Flows** — Move some to Someday or Wishlist. This is [Principle 3](/principles#_3-close-before-you-open) applied retroactively: you grew the active set without trading anything out, and now you're paying for it. 5–10 active Flows is manageable for most.
+- **Restrain manual additions** — Principle 2 is "curate your day," not "overload it."
 
 Chronic Today is a **system failure signal**. OTD's completion signal itself is broken in this state — resolve it before any other Stuck Signal.
+
+When Chronic Today recurs across multiple weeks, the deeper issue is usually Principle 3 not being practiced at activation time. New Flows are entering without anything leaving. Audit your active Flow set as a whole — not just the size, but which Flows have entered without a deliberate trade. Those are the candidates to demote.
 
 ---
 
@@ -98,8 +102,8 @@ Stuck Signals get audited during Review rituals.
 **Weekly Review** — Audit all five. (See [Review](/review) checklist.)
 - Identify stuck Actions → pick a resolution
 - Identify stale Awaits → follow up / re-delegate / cancel
-- Identify stalled Flows → keep / Someday / delete
-- Identify dormant clusters → park / dissolve / keep
+- Identify stalled Flows → keep / Someday / Wishlist / delete
+- Identify dormant clusters → park / demote to Wishlist / dissolve / keep
 
 **Quarterly Review** — Dormant clusters and Goal alignment.
 - If a cluster should have advanced this quarter but went dormant, re-examine its mapping to Goals.
@@ -124,8 +128,8 @@ Stuck Signals exist to expose decay. They're not a reset button to let you keep 
 |--------|-----------|------------|
 | Stuck Action | 3 days | Split / Rewrite / Keep (deliberate) / Delete |
 | Stale Await | 7 days | Follow up / Re-delegate / Cancel |
-| Stalled Flow | 2 weeks | Keep active / Someday / Delete |
-| Dormant cluster | 1 month | Park cluster / Dissolve / Keep |
+| Stalled Flow | 2 weeks | Keep active / Someday / Wishlist / Delete |
+| Dormant cluster | 1 month | Park cluster / Demote to Wishlist / Dissolve / Keep |
 | Chronic Today | 3 consecutive days | Split Actions / Reduce Flows / Restrain additions |
 
 Stuck Signals don't violate Principle 2. You still decide. The signals just make the decision unavoidable.

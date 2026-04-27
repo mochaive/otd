@@ -13,7 +13,7 @@ The defining question: **does this require any action from me?**
 - Yes → it's an Action or a Flow
 - No → it's Reference
 
-Reference is not Someday. Someday holds things you might act on in the future. Reference holds things you might look up in the future. The difference is whether there's a potential Action attached.
+Reference is not Someday or Wishlist. Someday holds things you intend to do later. Wishlist holds things you might do but haven't committed to. Reference holds things you might look up — no action attached, now or ever.
 
 ---
 
@@ -63,11 +63,17 @@ OTD doesn't prescribe how to organize Reference. The principles are simple:
 
 ---
 
-## Reference vs. Someday
+## Reference vs. Someday vs. Wishlist
 
-Both are places for things that aren't in your active system. The difference:
+Three places for things that aren't in your active system:
 
 - **Reference** — No future action. You might look this up. You will not act on it.
-- **Someday** — Potential future action. You might activate this. There's a Flow or Action waiting to happen.
+- **Someday** — Deferred commitment. You intend to act on this; the timing is paused. Step 1 is identifiable.
+- **Wishlist** — Uncommitted possibility. You might act on this, or you might not. Just an idea, not a plan.
 
-If you're not sure: ask "will I ever need to do something with this?" If yes, Someday. If no (just information), Reference.
+The questions to discriminate:
+
+- "Will I ever need to **do something** with this?" — No → Reference. Yes → Someday or Wishlist.
+- "Can I say what step 1 of activation would be?" — Yes → Someday. No → Wishlist.
+
+See [Today, Someday & Wishlist](/today-someday-wishlist#how-the-three-layers-relate) for the full layering.

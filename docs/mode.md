@@ -72,7 +72,7 @@ This is not a suggestion. It's the designed order for working through Today.
 - **Delegate second.** Sending instructions is fast. The sooner you send, the sooner results come back. While your delegate is working, you can work on other things. Every hour you delay a Delegate is an hour of parallel work you're not getting.
 - **Do last.** Direct execution takes the most time and focus. By handling Reviews and Delegates first, you've set other Flows in motion. Now you can give your full attention to Do work without knowing you've left other things blocked.
 
-Within the same Mode, the order is yours to decide. Choosing between two Do items is a lightweight call — it involves your judgment about priority, energy, and context. That's Principle 2: you design your day. But Mode makes that decision smaller. Instead of choosing between 10 undifferentiated items, you're choosing between 2–3 items in the same Mode.
+Within the same Mode, the order is yours to decide. Choosing between two Do items is a lightweight call — it involves your judgment about priority, energy, and context. That's [Principle 2](/principles#_2-curate-your-day-design-your-life) at its lightest: a small curation moment, not a daily redesign. And Mode makes even that smaller. Instead of choosing between 10 undifferentiated items, you're choosing between 2–3 items in the same Mode.
 
 ---
 

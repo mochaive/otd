@@ -42,7 +42,7 @@ Every morning you build Today from what your active Flows surface. Every item in
 | **Today** | The Actions you will touch today. When empty, your day is done. |
 | **Stuck Signals** | Threshold-based decay detection. Forces a decision when things quietly stop moving. |
 
-Two principles underlie everything: *Empty your head.* And *Design your own day.*
+Three principles underlie everything: *Empty your head.* *Curate your day, design your life.* *Close before you open.*
 
 ---
 

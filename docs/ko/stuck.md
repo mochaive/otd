@@ -8,7 +8,7 @@
 
 GTD가 가진 가장 큰 실패 모드는 "뭔가가 조용히 안 움직이고 있는데 아무도 모름"이다. OTD는 `Today가 비면 끝`이라는 완료 신호로 일일 수준의 전진을 가시화하지만, 일일 수준에서만으로는 부족하다. 며칠, 몇 주, 몇 달 단위로 곪는 정체는 별도의 진단 기제가 필요하다.
 
-Stuck Signal은 **결정을 대신하지 않는다**. 원칙 2(오늘을 직접 설계하라)는 유지된다. 신호는 단지 결정이 필요한 지점을 피할 수 없게 드러내는 것이다. 해소 방법을 선택하는 것은 사용자다.
+Stuck Signal은 **결정을 대신하지 않는다**. 원칙 2(오늘을 큐레이트하고, 삶을 설계하라)는 유지된다. 신호는 단지 결정이 필요한 지점을 피할 수 없게 드러내는 것이다. 해소 방법을 선택하는 것은 사용자다.
 
 ---
 
@@ -45,7 +45,8 @@ Stuck Signal은 **결정을 대신하지 않는다**. 원칙 2(오늘을 직접 
 
 **해소 옵션:**
 - **Keep active** — 이유를 명시. "이번 달은 다른 것 먼저"처럼 의식적 선택.
-- **Move to Someday** — 지금 안 할 것을 인정. 보관.
+- **Move to Someday** — 돌아올 의도가 있고 시점만 멈춘다.
+- **Demote to Wishlist** — commitment가 아니라 가능성으로 보관한다. Flow가 계속 stall되고 "곧 손댈게"가 더 이상 정직하지 않을 때 사용.
 - **Delete** — 더 이상 관련 없음.
 
 ### 4. Dormant Cluster
@@ -55,7 +56,8 @@ Stuck Signal은 **결정을 대신하지 않는다**. 원칙 2(오늘을 직접 
 **원인:** 큰 목표 자체가 더 이상 활성 우선순위가 아님.
 
 **해소 옵션:**
-- **Park cluster** — 개별 Flow가 아니라 묶음 통째로 Someday로. 목표 자체를 park.
+- **Park cluster** — 개별 Flow가 아니라 묶음 통째로 Someday로. 목표 자체를 park. 돌아올 의도는 남는다.
+- **Demote to Wishlist** — 목표는 여전히 흥미롭지만 commitment하지 않는다. 활성화 시 1단계가 "이게 진짜인지 정하기"가 된다. Someday cluster가 6개월 이상 무진척일 때 흔한 경로.
 - **Dissolve** — 몇 Flow는 삭제, 몇 Flow는 Area 다른 곳으로 재배치. 큰 목표는 포기하지만 일부 작업만 남긴다.
 - **Keep active** — 이유 명시. 분기 Review 때 다시 판단.
 
@@ -70,10 +72,12 @@ Stuck Signal은 **결정을 대신하지 않는다**. 원칙 2(오늘을 직접 
 
 **해소 옵션:**
 - **Action 크기 점검** — Today에 남은 모든 Action을 하루 안에 끝낼 수 있는지 다시 본다. 아니면 분할.
-- **활성 Flow 축소** — 일부 Flow를 Someday로. 5~10개가 대부분 적정.
-- **수동 추가 절제** — 원칙 2는 "오늘을 설계하라"이지 "오늘에 욱여넣어라"가 아니다.
+- **활성 Flow 축소** — 일부 Flow를 Someday나 Wishlist로. 이건 [원칙 3](/ko/principles#_3-새로-열기-전에-닫아라)을 사후적으로 적용하는 것이다: 거래 없이 활성 집합을 키웠고, 이제 그 대가를 치르고 있다. 5~10개 활성 Flow가 대부분 적정.
+- **수동 추가 절제** — 원칙 2는 "오늘을 큐레이트하라"이지 "오늘에 욱여넣어라"가 아니다.
 
 Chronic Today는 **시스템 장애 신호**다. OTD의 완료 신호 자체가 무너진 상태이므로, 다른 어떤 Stuck Signal보다 우선 해소한다.
+
+Chronic Today가 여러 주에 걸쳐 반복된다면, 더 깊은 문제는 보통 활성화 시점에 원칙 3이 실천되지 않는 것이다. 새 Flow가 들어오는데 떠나는 게 없다. 활성 Flow 집합을 전체적으로 점검하라 — 크기뿐 아니라 의식적 거래 없이 들어온 Flow가 무엇인지. 그것들이 강등 후보다.
 
 ---
 
@@ -98,8 +102,8 @@ Stuck Signal은 Review에서 체계적으로 점검된다.
 **Weekly Review** — 다섯 가지 모두 점검. ([Review](/ko/review) 체크리스트 참조.)
 - Stuck Action 식별 → 해소 결정
 - Stale Await 식별 → Follow up / Re-delegate / Cancel
-- Stalled Flow 식별 → Keep active / Someday / Delete
-- Dormant Cluster 식별 → Park / Dissolve / Keep
+- Stalled Flow 식별 → Keep active / Someday / Wishlist / Delete
+- Dormant Cluster 식별 → Park / Wishlist 강등 / Dissolve / Keep
 
 **분기 Review** — Dormant Cluster와 Goal 정렬 점검.
 - 이번 분기에 전진해야 했지만 Dormant Cluster가 있다면 Goal과의 매핑을 다시 본다.
@@ -124,8 +128,8 @@ Stuck Signal은 정체를 드러내기 위한 것이지, 반복해서 리셋하�
 |--------|--------|----------|
 | Stuck Action | 3일 | Split / Rewrite / Keep / Delete |
 | Stale Await | 7일 | Follow up / Re-delegate / Cancel |
-| Stalled Flow | 2주 | Keep active / Someday / Delete |
-| Dormant Cluster | 1달 | Park / Dissolve / Keep |
+| Stalled Flow | 2주 | Keep active / Someday / Wishlist / Delete |
+| Dormant Cluster | 1달 | Park / Wishlist 강등 / Dissolve / Keep |
 | Chronic Today | 3일 연속 | Action 분할 / Flow 축소 / 수동 추가 절제 |
 
 Stuck Signal은 원칙 2를 깨지 않는다. 결정은 여전히 사용자의 몫이다. 신호는 단지 그 결정을 피할 수 없게 만든다.

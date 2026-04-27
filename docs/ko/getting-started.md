@@ -85,7 +85,7 @@ Inbox의 각 항목을 위에서부터 하나씩 처리한다.
 각 항목에:
 
 **질문 1: 행동이 필요한가?**
-- 아니오 → 버리거나, Reference에 보관하거나, Someday로 이동
+- 아니오 → 버리거나, Reference에 보관하거나, Someday(미뤄둔 commitment) 또는 Wishlist(commitment 없는 가능성)로 이동
 - 예 → 질문 2로
 
 **질문 2: 누가 실행하는가?**
@@ -131,7 +131,7 @@ Today가 비면: 끝이다. 그게 신호다.
 시스템을 살아있게 하는 두 가지 습관:
 
 - **Daily Review** — 매일 아침, 5~10분. Today 확인, 빠진 것 추가, 시작.
-- **Weekly Review** — 주 1회, 30~60분. 전체 시스템 감사: Inbox 비우기, 모든 Area·Flow·Await 항목·Someday 검토. (전체 체크리스트는 [점검](/ko/review)을 참조.)
+- **Weekly Review** — 주 1회, 30~60분. 전체 시스템 감사: Inbox 비우기, 모든 Area·Flow·Await 항목·Someday·Wishlist 검토. (전체 체크리스트는 [점검](/ko/review)을 참조.)
 
 Weekly Review를 위한 특정 시간을 정하고 캘린더에 넣는다. 자신과의 약속처럼 취급한다.
 

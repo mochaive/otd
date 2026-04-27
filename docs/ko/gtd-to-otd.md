@@ -15,7 +15,7 @@
 | Next Action | **Action** | 동일: 하루 안에 완료 가능 |
 | Context (@computer, @phone) | **Mode** (Do/Delegate/Await/Review) | 물리적 컨텍스트 → 실행 상태 |
 | Waiting For | **Await** | 1급 Mode로 승격 |
-| Someday/Maybe | **Someday** | 동일 |
+| Someday/Maybe | **Someday** + **Wishlist** | 미뤄둔 commitment와 commitment 없는 가능성으로 분리 |
 | Reference | **Reference** | 동일. Vision과 Purpose도 여기에 보관. |
 | Weekly Review | **Daily + Weekly + 분기 + 연간** | 완전한 Review 리듬 |
 | Calendar | **Calendar** | 변경 없음 |
@@ -36,7 +36,7 @@
 - **2분 규칙.** 수정 없이 유지. 2분 미만이면 지금 실행한다.
 - **하루 안에 완료 가능한 Action.** GTD의 "Next Action"은 한 번의 작업에서 물리적으로 완료될 수 있어야 한다. OTD의 Action은 하루 안에 완료될 수 있어야 한다. 같은 제약, 같은 이유.
 - **Reference 정리.** 행동이 필요 없는 정보는 Reference로. 변경 없음.
-- **Someday/Maybe.** 나중에 할 수 있는 것들을 보관. 같은 개념이며 OTD에서 Flow까지 확장됨.
+- **나중에 할 수 있는 것들을 보관하기.** OTD는 기저 습관을 유지하되 GTD의 Someday/Maybe를 두 계층으로 분리한다: **Someday**(미뤄둔 commitment, 1단계 식별 가능, 노화 처리 적용) 그리고 **Wishlist**(commitment 없는 가능성, 노화 압박 없음). 이 분리는 GTD의 합쳐진 목록이 시간이 지나며 만들어내는 죄책감-vs-부담 혼합을 제거한다.
 
 ---
 
@@ -79,6 +79,25 @@
 **OTD**는 병렬 조율을 위해 설계됐다. 여러 Flow가 동시에 전진한다. 각자 다음 Action을 독립적으로 올린다. 같은 날 세 개의 프로젝트를 병렬로 전진시킬 수 있다.
 
 **전환:** 캡처하거나 처리하는 방식을 바꿀 필요는 없다. 활성 작업에 대해 생각하는 방식이 바뀐다. "이번 주에 어떤 프로젝트에 집중해야 하지?" 대신 "오늘 어떤 Flow를 전진시키고 싶지?"를 묻는다. 모두 매일 전진할 수 있다, 각각 Action 하나씩.
+
+### Someday/Maybe → Someday + Wishlist
+
+GTD의 Someday/Maybe는 두 다른 의도를 섞는다: 진짜로 미뤄둔 것("나중에 할 거야")과 가능성으로 보관하는 것("언젠가 할 수도 있어"). 시간이 지나면 이 혼합은 문제가 된다 — 미뤄둔 commitment에는 죄책감이 쌓이고, 한가한 가능성에는 부담이 쌓인다, 같은 목록 안에서.
+
+**OTD**는 분리한다:
+
+- **[Someday](/ko/today-someday-wishlist#someday)** — 미뤄둔 commitment. 행동할 의도가 있고, 시점만 멈춰 있고, 1단계를 식별할 수 있다. 6개월에 노화 처리.
+- **[Wishlist](/ko/today-someday-wishlist#wishlist)** — commitment 없는 가능성. 흥미로운 아이디어, 추구할 의무 없음. 노화 압박 없음.
+
+**전환:** 기존 Someday/Maybe를 한 번 훑는다. 각 항목에 대해 묻는다: "활성화의 1단계가 뭐가 될지 말할 수 있는가?" 예 → Someday. 아니오 → Wishlist. 첫 패스가 목록의 얼마나 많은 부분이 진짜 commitment였고 얼마나 많은 부분이 wish thinking이었는지를 명료하게 한다.
+
+### 새 활성 commitment → 원칙 3
+
+GTD는 새 프로젝트를 만들 때 어떤 제약도 부과하지 않는다. 캡처를 계속하는 한 활성 프로젝트 목록은 무한히 자랄 수 있다.
+
+**OTD**는 [원칙 3 — 새로 열기 전에 닫아라](/ko/principles#_3-새로-열기-전에-닫아라)를 도입한다. 새 Flow를 활성화할 때(Inbox에서든, Someday에서든, Wishlist에서든) 닫는 결정과 짝을 이룬다: 기존 Flow를 완료하거나, Someday로 옮기거나, Wishlist로 강등하거나, 삭제한다. 활성 집합에 천장이 있다.
+
+**전환:** 사후 정리가 필요 없다. 다음 활성화부터 적용하기 시작한다. 새 Flow를 만드는 첫 순간에 "무엇이 떠나는가?"를 물어라 — 거기서 실천이 자란다.
 
 ---
 

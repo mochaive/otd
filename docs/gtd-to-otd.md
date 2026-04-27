@@ -15,7 +15,7 @@ A migration guide for existing GTD users. What maps to what, what changes, and w
 | Next Action | **Action** | Same: completable in a day |
 | Context (@computer, @phone) | **Mode** (Do/Delegate/Await/Review) | Execution state replaces physical context |
 | Waiting For | **Await** | Promoted to first-class Mode |
-| Someday/Maybe | **Someday** | Same concept |
+| Someday/Maybe | **Someday** + **Wishlist** | Split into deferred commitment vs. uncommitted possibility |
 | Reference | **Reference** | Same. Also holds Vision and Purpose. |
 | Weekly Review | **Daily Review + Weekly Review + Quarterly + Annual** | Full review rhythm |
 | Calendar | **Calendar** | Unchanged |
@@ -36,7 +36,7 @@ These GTD principles carry over intact:
 - **The 2-minute rule.** Kept without modification. If it takes less than 2 minutes, do it now.
 - **Actions completable in a day.** GTD's "Next Actions" must be physically completable in one sitting. OTD's Actions must be completable in one day. Same constraint, same reasoning.
 - **Reference filing.** Non-actionable information goes to Reference. Unchanged.
-- **Someday/Maybe.** Parking things you might do later. Same concept, extended to Flows in OTD.
+- **Parking things you might do later.** OTD keeps the underlying habit but splits GTD's Someday/Maybe into two layers: **Someday** (deferred commitment, step 1 identifiable, ages out) and **Wishlist** (uncommitted possibility, no aging pressure). The split removes the guilt-vs-pressure blend that GTD's combined list creates over time.
 
 ---
 
@@ -79,6 +79,25 @@ The promotion matters because delegation is more frequent now. If you're using A
 **OTD** is designed for parallel orchestration. Multiple Flows advance simultaneously. Each surfaces its next Action independently. You can be advancing three projects in parallel on the same day.
 
 **Migration:** This doesn't require changing how you capture or process. It changes how you think about your active work. Instead of asking "which project should I focus on this week?", you ask "which Flows do I want to advance today?" They can all advance every day, one Action each.
+
+### Someday/Maybe → Someday + Wishlist
+
+GTD's Someday/Maybe blends two different intents: things you've genuinely deferred ("I will do this later") and things you're keeping as possibilities ("I might do this someday"). Over time, the blend becomes a problem — deferred commitments accumulate guilt, and idle possibilities accumulate pressure, in the same list.
+
+**OTD** splits them:
+
+- **[Someday](/today-someday-wishlist#someday)** — deferred commitment. You intend to act, the timing is paused, step 1 is identifiable. Ages out at 6 months.
+- **[Wishlist](/today-someday-wishlist#wishlist)** — uncommitted possibility. An interesting idea, no obligation to pursue. No aging pressure.
+
+**Migration:** Walk through your existing Someday/Maybe once. For each item ask: "Can I say what step 1 of activation would be?" Yes → Someday. No → Wishlist. The first sweep clarifies how much of the list was real commitment vs. how much was wish thinking.
+
+### New active commitment → Principle 3
+
+GTD doesn't impose any constraint when you create a new project. The list of active projects can grow as long as you keep capturing.
+
+**OTD** introduces [Principle 3 — Close before you open](/principles#_3-close-before-you-open). When you activate a new Flow (whether from Inbox, from Someday, or from Wishlist), pair it with a closing decision: complete an existing Flow, move one to Someday, demote one to Wishlist, or delete one. The active set has a ceiling.
+
+**Migration:** No retroactive sweep needed. Start applying it at the next activation. The first time you create a new Flow, ask "what's leaving?" — and let the practice build from there.
 
 ---
 

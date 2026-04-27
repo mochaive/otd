@@ -153,11 +153,18 @@ Under alphabetical sort, the three Flows land next to each other. When the launc
 
 ---
 
-## Someday Flows
+## Someday and Wishlist Flows
 
-A Flow you're not working on now moves to Someday. It doesn't surface Actions in Today. It appears in your Weekly Review for consideration.
+A Flow you're not working on now has two parking destinations:
 
-This is different from deleting a Flow. You're not abandoning it — you're parking it. When circumstances change (time frees up, opportunity returns, the goal becomes relevant again), you activate it and it starts surfacing Actions again.
+- **Someday** — you intend to return to this Flow; the timing is just paused. Step 1 is already defined.
+- **Wishlist** — you're keeping the idea as a possibility, not a commitment. Often a Flow that has stalled long enough that "I'll get to it" no longer feels honest.
+
+Neither surfaces Actions in Today. Both appear in your Weekly Review for consideration.
+
+This is different from deleting a Flow. You're not abandoning it — you're parking it at the level of commitment that's actually true. When circumstances change, activate it from either layer (activation triggers [Principle 3](/principles#_3-close-before-you-open) — decide what's closing to make room).
+
+See [Today, Someday & Wishlist](/today-someday-wishlist) for the full distinction.
 
 ---
 

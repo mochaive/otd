@@ -85,7 +85,7 @@ Go through each item in Inbox, one at a time, top to bottom.
 For each item:
 
 **Question 1: Is this actionable?**
-- No → Trash it, file in Reference, or move to Someday
+- No → Trash it, file in Reference, move to Someday (deferred commitment), or move to Wishlist (uncommitted possibility)
 - Yes → Go to Question 2
 
 **Question 2: Who executes this?**
@@ -131,7 +131,7 @@ When Today is empty: you're done. That's the signal.
 The two habits that keep the system alive:
 
 - **Daily Review** — every morning, 5–10 minutes. Check Today, add anything missing, begin.
-- **Weekly Review** — once a week, 30–60 minutes. Full system audit: Inbox zero, review all Areas, Flows, Await items, Someday. (See [Review](/review) for the full checklist.)
+- **Weekly Review** — once a week, 30–60 minutes. Full system audit: Inbox zero, review all Areas, Flows, Await items, Someday, and Wishlist. (See [Review](/review) for the full checklist.)
 
 Pick a specific time for Weekly Review and put it in your calendar. Treat it like a meeting with yourself.
 

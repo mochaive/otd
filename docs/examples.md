@@ -62,7 +62,7 @@ She goes through each item:
 
 → `Area: Work → Action (standalone)`
 
-*"Figma advanced course"* → Actionable eventually. Not urgent. Someday.
+*"Figma advanced course"* → Interesting, no real plan. She can't say what step 1 would be — "find a course"? "decide which one"? It's idle interest, not a deferred commitment. Wishlist.
 
 *"Doctor appointment"* → Actionable. Do. "Book annual physical — find earliest slot."
 
@@ -74,13 +74,13 @@ She goes through each item:
 
 *"Laptop fan"* → Actionable. 2 minutes: she books a tech support appointment right now.
 
-*"Read Shape Up"* → Someday. Not urgent.
+*"Read Shape Up"* → Wishlist. She's interested but not committing — and there's no aging pressure if it sits there for a year.
 
 *"Expense reports"* → Actionable. Do. "Submit Seoul trip expenses — receipt photos in Photos app."
 
 → `Area: Finance → Action (standalone)`
 
-*"Update personal site"* → Someday. She'd like to, but not now.
+*"Update personal site"* → Someday. She'd like to, not now. Step 1 is clear ("list what's outdated") and she'd activate it after the Q3 deck is done — the trigger is real.
 
 *"Performance review"* → Actionable. She creates a Flow: "Write self-evaluation draft" → "Collect impact examples" → "Review with manager."
 
@@ -106,7 +106,8 @@ Area: Health
 Area: Finance
   └─ Action: [Do] Submit Seoul trip expenses
 
-Someday: Figma course, personal site update, Shape Up
+Someday: personal site update (trigger: after Q3 deck)
+Wishlist: Figma course, Shape Up
 ```
 
 **Her first Today (Monday morning, 8 minutes):**
