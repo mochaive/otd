@@ -87,6 +87,8 @@ If only one Flow serves a goal, don't add a prefix. The prefix only earns its ke
 
 `[[keyword]]` is the recommended form, but any consistent prefix — `[keyword]` or `«keyword»` — works the same way. The point is a stable prefix that groups under sort.
 
+**If your tool has real grouping, use it.** The prefix is a fallback for tools that don't — which is most of them, and why it's the default here. A tool with a first-class grouping concept should offer it directly and keep the prefix working for people arriving from a plain-text setup. What the framework requires is that related Flows stay visibly together; the prefix is one way to get there, not the goal itself.
+
 ---
 
 ## Designing a Flow well

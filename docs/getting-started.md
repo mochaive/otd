@@ -2,6 +2,29 @@
 
 A step-by-step walkthrough for setting up OTD from scratch. Estimated time: 1–2 hours for initial setup, then 5–10 minutes each morning.
 
+**You don't have to start there.** If a two-hour setup is the reason you'd never begin, use the 15-minute path below instead — it's not a lesser version, it's the same system built in a different order.
+
+---
+
+## The 15-minute start
+
+Structure on demand: create Areas and Flows when an item needs one, not before.
+
+1. **Pick your Inbox** (1 min). One place. Any notes app.
+2. **Dump for 10 minutes** (10 min). Whatever is loudest in your head right now. Not everything — just what's noisy.
+3. **Pull three items into Today** (2 min). Assign each a Mode: Do, Delegate, or Await.
+4. **Execute.** Review → Delegate → Do. When Today is empty, you're done.
+
+That's a working system on day one. No Areas yet, no Flows yet.
+
+Then let structure arrive as it's needed:
+
+- The second time an item belongs with another item → that's a **Flow**.
+- The third or fourth Flow that lives in the same part of your life → that's an **Area**.
+- Your first **Weekly Review** is the real initialization. That's when you'll see what the structure actually wants to be, and you'll build it from evidence rather than from a blank page.
+
+The full walkthrough below is the other order: build the map first, then run. Both end in the same place. Pick the one you'll actually finish — Principle 2's point about spending agency where you have it applies to setup too.
+
 ---
 
 ## Before you begin

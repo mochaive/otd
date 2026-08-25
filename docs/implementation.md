@@ -112,6 +112,19 @@ A view showing how many Actions are completed vs. remaining in each active Flow.
 
 **Why it matters:** Not required for daily execution, but useful during Weekly Review to quickly spot stuck Flows and stalled Flow clusters without opening each one.
 
+### Return gate and Review budget
+
+If a tool lets agents write, it must implement [Principle 4](/principles#_4-nothing-lands-unreviewed) mechanically, not by convention:
+
+- **Returned work becomes a Review Action.** Nothing an agent or rule produces enters Flows, Today, Someday, or Wishlist directly.
+- **Read paths need no gate.** Only writes do.
+- **Rejection is recorded.** A rejected return stays visible with its origin; it doesn't vanish.
+- **Every write carries its actor** — human, agent (which one), or rule (which sentence).
+- **A daily Review budget exists and is configurable.** When it's reached, the tool stops accepting agent returns rather than stacking them on the user. Unreviewed items age into Stuck Signals.
+- **Rules are readable and reversible.** A rule shows as one sentence the user wrote, logs what it did, and can be undone and deleted. Rules may place newly arrived items; they may not modify or remove existing work without a Review.
+
+**Why it matters:** delegation to agents is cheap and fast, so the gate is the only thing that keeps the system's contents the user's own decisions. Without it, Principle 1's trust condition breaks from the far end: everything is in the system, but the user can no longer tell which parts they chose.
+
 ---
 
 ## What tools should NOT do
@@ -121,3 +134,6 @@ These behaviors undermine OTD's core principles.
 - **Auto-populate Today.** The tool surfaces Actions from Flows — that's Tier 1. But it should not decide which Actions to include or exclude based on priority scores, due dates, or AI inference. Today is designed by the user, not the system.
 - **Auto-prioritize within Today.** The order within each Mode is the user's call. The tool can suggest Mode order (Review → Delegate → Do), but should not reorder items within a Mode automatically.
 - **Force a specific hierarchy.** OTD's structure is Area → Flow → Action (or Area → Action). Tools should support nesting Actions inside Flows but shouldn't mandate that every Action live inside a Flow. Standalone Actions under Areas are valid and should work cleanly. Grouping related Flows with a `[[keyword]]` prefix is just a naming convention, so tools need nothing beyond alphabetical sort for it to work — no separate "group" entity required.
+- **Apply agent returns automatically.** No matter how reliable the agent seems, results enter through Review. A tool may offer "approve all," but it may not skip the step, and it should not make bulk approval the easiest path — see **Approval-theater failure** in [Principle 2](/principles#_2-curate-your-day-design-your-life).
+- **Retune Stuck Signal thresholds silently.** A tool may propose new thresholds from observed history; the user accepts them. A threshold the user never chose is a rule they can't read back.
+- **Let rules mutate existing work.** Rules place what newly arrives. Changing or deleting what's already there goes through Review.

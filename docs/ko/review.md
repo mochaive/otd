@@ -45,7 +45,7 @@ Flow에서 자동으로 올라오는 서피싱은 활성 작업에 맞게 조정
 Today에 있는 것 중 오늘 느낌이 잘못된 게 있는가? 뺀다. Mode 기반 실행 순서(Review → Delegate → Do)가 이미 명확한가? 좋다.
 
 **5. Chronic Today 확인.**
-Today가 마지막으로 빈 날이 언제인가? 연속 3일 이상 안 비었다면 [Chronic Today](/ko/stuck#5-chronic-today)다 — 다른 어떤 결정보다 먼저 해소한다. Action 크기를 재점검하거나, 활성 Flow를 축소하거나, 수동 추가를 절제한다.
+Today가 마지막으로 빈 날이 언제인가? 연속 3일 이상 안 비었다면 [Chronic Today](/ko/stuck#_5-chronic-today)다 — 다른 어떤 결정보다 먼저 해소한다. Action 크기를 재점검하거나, 활성 Flow를 축소하거나, 수동 추가를 절제한다.
 
 **6. 시작.**
 5~10분을 썼다. Today가 설정됐다. 작업을 시작한다.

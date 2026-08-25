@@ -3,9 +3,11 @@
 Every Action has a Mode — who is executing it and what state it's in.
 
 - **Do** — You execute this yourself.
-- **Delegate** — You hand this off to AI or another person.
+- **Delegate** — You hand this off to someone or something else: a person, an AI agent, or a rule you wrote.
 - **Await** — You're waiting for a result from a delegated action or external input.
-- **Review** — A result has come back. You inspect it, then approve or re-delegate.
+- **Review** — A result has come back. You inspect it, then approve, reject, or re-delegate. Returned work enters here and nowhere else ([Principle 4](/principles#_4-nothing-lands-unreviewed)).
+
+Delegate, Await, and Review also carry an **actor** — who is on the other side. See [Actor](#actor-who-is-on-the-other-side).
 
 ---
 
@@ -49,7 +51,7 @@ Await Actions don't require you to do anything — yet. They represent work that
 
 The purpose of Await is visibility. In GTD, "Waiting For" was a separate list you checked occasionally. In OTD, Await is a first-class Mode. Every Await item is visible in your system. During Weekly Review, you explicitly check whether anything in Await has been waiting too long and needs follow-up.
 
-Await Actions don't surface in Today automatically — they're tracked separately. When the result arrives, you create a Review Action (or the Await transitions to Review automatically, depending on your tool).
+Await Actions don't surface in Today automatically — they're tracked separately. When the result arrives, it becomes a **Review** Action. Arrival creates a Review; it never writes into your system directly ([Principle 4](/principles#_4-nothing-lands-unreviewed)).
 
 ### Review
 
@@ -57,10 +59,35 @@ A result is back. You look at it, decide, and move forward.
 
 Review is where you close the loop on Delegated work. The question you're answering is one of:
 - **Approve** — the result is good. Check the Review Action. The next Action in the Flow unlocks.
-- **Re-delegate** — the result isn't right. Create a new Delegate Action with revised instructions.
+- **Reject** — the result is wrong or unwanted. It doesn't enter. The rejection stays visible, so nothing disappears silently.
+- **Re-delegate** — the result isn't right, but the work still is. Create a new Delegate Action with revised instructions.
 - **Revise yourself** — you'll take it from here. Convert to a Do Action and continue.
 
 Review is often fast — a few minutes to look at a document, an AI output, or a colleague's work and decide whether to accept or push back. But it's a real decision. Skipping Reviews means Flows sit blocked for no reason.
+
+**Review has a budget.** When delegation is cheap, returns arrive faster than judgment can keep up, and approving degenerates into a reflex (see **Approval-theater failure** in [Principle 2](/principles#_2-curate-your-day-design-your-life)). Cap how many Reviews you take on in a day. When the cap is reached, the machine waits — agents stop handing work back — and unreviewed items age into Stuck Signals rather than piling up.
+
+---
+
+## Actor: who is on the other side
+
+Delegate, Await, and Review are the same three Modes regardless of who executes. But the three actors fail differently, so it's worth naming which one you're dealing with.
+
+| Actor | Volume & speed | How it fails | What it needs |
+| --- | --- | --- | --- |
+| **Human** | Slow, few | You forget you're waiting | Follow-up during Weekly Review |
+| **Agent** | Fast, many, plausible | Volume outruns judgment | A Review budget and a hard return gate |
+| **Rule** | Invisible while it works | You forget you wrote it | Being readable back as your own sentence |
+
+A **rule** is a sentence you wrote that acts on your behalf — "anything untouched for two weeks goes to Someday." It's a real actor, not a setting, because it does work you would otherwise do.
+
+The line that keeps a rule legitimate:
+
+- A rule may **place what has newly arrived** — routing, sorting, tagging.
+- A rule may **not change or remove what already exists** without passing through Review.
+- Every action a rule takes is logged and reversible, and the rule itself stays visible as one line you can read and delete.
+
+That boundary is what separates a rule from automation you no longer control. The moment you can't state a rule in your own words, it isn't yours anymore — retire it.
 
 ---
 

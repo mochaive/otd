@@ -53,7 +53,7 @@ This signal is honest because every item in Today was completable. An empty Toda
 
 If Today is regularly not empty at end of day, that's feedback. Either you're overloading it (pull fewer Actions), the Actions are too large (break them down), or something in your Flows is stuck (check during Weekly Review).
 
-Three or more consecutive days where Today hasn't emptied is a [Chronic Today](/stuck#5-chronic-today) Stuck Signal — the completion signal itself is broken, and resolving it takes priority over anything else.
+Three or more consecutive days where Today hasn't emptied is a [Chronic Today](/stuck#_5-chronic-today) Stuck Signal — the completion signal itself is broken, and resolving it takes priority over anything else.
 
 ### Today capacity
 

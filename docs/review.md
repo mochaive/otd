@@ -45,7 +45,7 @@ The automatic surfacing from Flows is calibrated to your active work. Trust it. 
 Does anything in Today feel wrong for today? Move it out. Is the sequence of Mode-based execution (Review → Delegate → Do) already clear? Good.
 
 **5. Check for Chronic Today.**
-When was Today last empty? If it's been 3+ consecutive days, that's [Chronic Today](/stuck#5-chronic-today) — resolve it before any other decision. Audit Action sizes, reduce active Flows, or restrain manual additions.
+When was Today last empty? If it's been 3+ consecutive days, that's [Chronic Today](/stuck#_5-chronic-today) — resolve it before any other decision. Audit Action sizes, reduce active Flows, or restrain manual additions.
 
 **6. Begin.**
 You've spent 5–10 minutes. Today is set. Start working.
