@@ -53,7 +53,7 @@ Today에 있는 항목이 오늘 체크될 수 없다면, Today에 있으면 안
 
 하루 끝에 Today가 자주 비지 않는다면, 이건 피드백이다. 너무 많이 넣고 있거나(덜 끌어오라), Action이 너무 크거나(더 작게 나눠라), Flow 안에서 뭔가 막혀 있는 것이다(Weekly Review 때 확인하라).
 
-연속 3일 이상 Today가 비지 않는 상태는 [Chronic Today](/ko/stuck#5-chronic-today)라는 Stuck Signal이다 — 완료 신호 자체가 무너진 상태이므로 다른 무엇보다 먼저 해소해야 한다.
+연속 3일 이상 Today가 비지 않는 상태는 [Chronic Today](/ko/stuck#_5-chronic-today)라는 Stuck Signal이다 — 완료 신호 자체가 무너진 상태이므로 다른 무엇보다 먼저 해소해야 한다.
 
 ### Today 용량
 

@@ -12,6 +12,25 @@ Stuck Signals **don't make decisions for you**. Principle 2 (curate your day, de
 
 ---
 
+## Thresholds are defaults, not laws
+
+Every number below (3 days, 7 days, 2 weeks, 1 month, 6 months) is a **starting default**, not a rule of the framework. They exist so the system works on day one, before it knows anything about you.
+
+The numbers should converge on your actual rhythm:
+
+- If your Awaits normally come back in two days, a 7-day threshold is too slow to be useful.
+- If you work in long research cycles, a 2-week Stalled Flow threshold will cry wolf every time.
+- The right threshold is the one where a signal makes you *act*, not the one where you dismiss it.
+
+Two rules keep this honest:
+
+- **A threshold you always dismiss is wrong.** Either raise it or delete the signal. A signal you ignore is worse than no signal — it trains you to ignore the rest.
+- **A threshold is an observation, not a standard.** It says "this hasn't moved in N days," never "you are behind." Stuck Signals carry no judgment; see [On productivity and guilt](/principles#on-productivity-and-guilt).
+
+A tool may learn these numbers from your history — how long your Awaits actually take, how often you complete Actions in a Flow — and propose an adjustment. It should propose, never silently retune. A threshold you didn't choose is a rule you can't read back.
+
+---
+
 ## The five signals
 
 ### 1. Stuck Action
