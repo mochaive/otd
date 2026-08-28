@@ -90,7 +90,7 @@ const koSidebar = [
 
 export default defineConfig({
   title: 'OTD',
-  description: 'Orchestrating Things Done — A personal task management framework for the AI era.',
+  description: 'Orchestrating Things Done. A personal task management framework for the AI era.',
 
   sitemap: {
     hostname: 'https://otd.mochaive.com'
@@ -128,7 +128,7 @@ export default defineConfig({
     ],
     footer: {
       message: 'Released under the open source license.',
-      copyright: 'OTD — Orchestrating Things Done'
+      copyright: 'OTD: Orchestrating Things Done'
     },
     search: {
       provider: 'local'

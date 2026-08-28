@@ -1,8 +1,8 @@
 # Getting Started
 
-A step-by-step walkthrough for setting up OTD from scratch. Estimated time: 1–2 hours for initial setup, then 5–10 minutes each morning.
+A step-by-step walkthrough for setting up OTD from scratch. Estimated time: 1-2 hours for initial setup, then 5-10 minutes each morning.
 
-**You don't have to start there.** If a two-hour setup is the reason you'd never begin, use the 15-minute path below instead — it's not a lesser version, it's the same system built in a different order.
+**You don't have to start there.** If a two-hour setup is the reason you'd never begin, use the 15-minute path below instead. It's not a lesser version. It's the same system built in a different order.
 
 ---
 
@@ -11,7 +11,7 @@ A step-by-step walkthrough for setting up OTD from scratch. Estimated time: 1–
 Structure on demand: create Areas and Flows when an item needs one, not before.
 
 1. **Pick your Inbox** (1 min). One place. Any notes app.
-2. **Dump for 10 minutes** (10 min). Whatever is loudest in your head right now. Not everything — just what's noisy.
+2. **Dump for 10 minutes** (10 min). Whatever is loudest in your head right now. Not everything, just what's noisy.
 3. **Pull three items into Today** (2 min). Assign each a Mode: Do, Delegate, or Await.
 4. **Execute.** Review → Delegate → Do. When Today is empty, you're done.
 
@@ -23,7 +23,7 @@ Then let structure arrive as it's needed:
 - The third or fourth Flow that lives in the same part of your life → that's an **Area**.
 - Your first **Weekly Review** is the real initialization. That's when you'll see what the structure actually wants to be, and you'll build it from evidence rather than from a blank page.
 
-The full walkthrough below is the other order: build the map first, then run. Both end in the same place. Pick the one you'll actually finish — Principle 2's point about spending agency where you have it applies to setup too.
+The full walkthrough below is the other order: build the map first, then run. Both end in the same place. Pick the one you'll actually finish. Principle 2's point about spending agency where you have it applies to setup too.
 
 ---
 
@@ -32,7 +32,7 @@ The full walkthrough below is the other order: build the map first, then run. Bo
 OTD is a framework, not a specific tool. You'll need:
 - Something to use as **Inbox** (any notes app, text file, or paper)
 - Something to hold your **Areas, Flows, and Actions** (same app or a different one)
-- Your **calendar** (unchanged — keep whatever you're using)
+- Your **calendar** (unchanged: keep whatever you're using)
 
 The tool doesn't matter. The discipline does. If you already have a task management app, you can implement OTD in it. If you're starting fresh, a plain notes app works fine.
 
@@ -48,7 +48,7 @@ Don't filter yet. Just list everything you're responsible for:
 - Development areas (learning, creative work, hobbies you take seriously)
 - Life logistics (home, car, admin)
 
-Look at the list. Consolidate where things overlap. Aim for 5–10 Areas.
+Look at the list. Consolidate where things overlap. Aim for 5-10 Areas.
 
 **Example result:**
 ```
@@ -82,11 +82,11 @@ If you already have an Inbox system, keep it. You're adding the OTD processing s
 
 ---
 
-## Step 3: Brain dump (30–60 minutes)
+## Step 3: Brain dump (30-60 minutes)
 
 This is the most important step for first-time setup.
 
-Open your Inbox and spend 30–60 minutes emptying your head:
+Open your Inbox and spend 30-60 minutes emptying your head:
 - Every task you've been meaning to do
 - Every commitment you've made to others
 - Every worry occupying mental space
@@ -97,11 +97,11 @@ Open your Inbox and spend 30–60 minutes emptying your head:
 
 Don't filter. Don't organize. Don't decide where anything belongs. Just get it out of your head and into Inbox.
 
-This step feels uncomfortable for some people — it forces you to confront everything you've been mentally juggling. That's the point. Get it out now so you can deal with it systematically.
+This step feels uncomfortable for some people. It forces you to confront everything you've been mentally juggling. That's the point. Get it out now so you can deal with it systematically.
 
 ---
 
-## Step 4: Process your Inbox (30–60 minutes)
+## Step 4: Process your Inbox (30-60 minutes)
 
 Go through each item in Inbox, one at a time, top to bottom.
 
@@ -118,11 +118,11 @@ For each item:
 
 **If you need a new Flow:** Create one when you have a sequence of Actions aimed at a specific outcome.
 
-**If multiple Flows serve the same larger goal:** Prefix their names with a shared `[[keyword]]` — they'll land next to each other under alphabetical sort.
+**If multiple Flows serve the same larger goal:** Prefix their names with a shared `[[keyword]]`. They'll land next to each other under alphabetical sort.
 
 As you process, your structure will build itself. You'll find natural groupings. Flows will take shape as you sequence related Actions.
 
-**Don't over-plan.** Process what you have. Don't try to plan out every future Action in a Flow — let them emerge as you work.
+**Don't over-plan.** Process what you have. Don't try to plan out every future Action in a Flow. Let them emerge as you work.
 
 ---
 
@@ -137,7 +137,7 @@ Look at what's there:
 
 Add anything missing. Remove anything that shouldn't be today.
 
-This is your first Daily Review. It will get faster — most days, 5 minutes is enough.
+This is your first Daily Review. It will get faster. Most days, 5 minutes is enough.
 
 ---
 
@@ -153,8 +153,8 @@ When Today is empty: you're done. That's the signal.
 
 The two habits that keep the system alive:
 
-- **Daily Review** — every morning, 5–10 minutes. Check Today, add anything missing, begin.
-- **Weekly Review** — once a week, 30–60 minutes. Full system audit: Inbox zero, review all Areas, Flows, Await items, Someday, and Wishlist. (See [Review](/review) for the full checklist.)
+- **Daily Review**: every morning, 5-10 minutes. Check Today, add anything missing, begin.
+- **Weekly Review**: once a week, 30-60 minutes. Full system audit: Inbox zero, review all Areas, Flows, Await items, Someday, and Wishlist. (See [Review](/review) for the full checklist.)
 
 Pick a specific time for Weekly Review and put it in your calendar. Treat it like a meeting with yourself.
 
@@ -164,9 +164,9 @@ Pick a specific time for Weekly Review and put it in your calendar. Treat it lik
 
 The first week with OTD is rarely smooth. Expect:
 
-- **Day 1–2:** Everything feels new and slightly slow. Processing Actions into the structure takes longer than it will later. This is normal — you're building the structure for the first time.
-- **Day 3–4:** The structure starts to feel natural. Today surfaces Actions you recognize and trust. The Mode-based execution order starts to feel obvious.
-- **Day 5–7:** You complete a Weekly Review. This is the real initialization. After your first Weekly Review, you've seen the whole system from above, pruned what doesn't belong, and confirmed what does. The system is now yours.
+- **Day 1-2:** Everything feels new and slightly slow. Processing Actions into the structure takes longer than it will later. This is normal. You're building the structure for the first time.
+- **Day 3-4:** The structure starts to feel natural. Today surfaces Actions you recognize and trust. The Mode-based execution order starts to feel obvious.
+- **Day 5-7:** You complete a Weekly Review. This is the real initialization. After your first Weekly Review, you've seen the whole system from above, pruned what doesn't belong, and confirmed what does. The system is now yours.
 
 ---
 
@@ -174,5 +174,5 @@ The first week with OTD is rarely smooth. Expect:
 
 - **Over-structuring:** Creating Flows for single Actions, or adding `[[keyword]]` prefixes where no grouping exists. Keep it simple. Add structure when you have multiple things that need grouping.
 - **Actions too large:** If Today never feels empty, your Actions are probably too large. "Work on proposal" → "Write the introduction section."
-- **Skipping Daily Review:** If you skip Daily Review, you're working from an un-curated Today. Do it even when it feels like a formality — it takes 5 minutes and the return is high.
+- **Skipping Daily Review:** If you skip Daily Review, you're working from an un-curated Today. Do it even when it feels like a formality. It takes 5 minutes and the return is high.
 - **Perfectionism:** The brain dump didn't capture everything. The structure isn't perfect. The first Weekly Review will find things you missed. That's fine. The system improves as you use it.

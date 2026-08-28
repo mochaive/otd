@@ -24,12 +24,12 @@ Does this belong to an existing Area?
        ├─ Is this a one-off Action with no sequence?
        │    └─ Yes → Add directly to Area
        │
-       └─ No — it's part of a sequence
+       └─ No: it's part of a sequence
             │
             ├─ Belongs to an existing Flow?
             │    └─ Yes → Add to that Flow
             │
-            └─ No — needs a new Flow
+            └─ No: needs a new Flow
                  │
                  └─ Create a new Flow in the Area
                     (if another Flow already serves the same larger goal,
@@ -48,7 +48,7 @@ If you don't have an Area that fits, you might need to create one. But first, pa
 
 "Learn Spanish" is not a new Area. It's probably a Flow inside "Learning" or "Personal Development."
 
-"Freelance work" might be a new Area if you're starting to take on freelance clients — it's an ongoing domain of responsibility that persists. Or it might be a Flow inside "Career" if it's a one-time engagement.
+"Freelance work" might be a new Area if you're starting to take on freelance clients. It's an ongoing domain of responsibility that persists. Or it might be a Flow inside "Career" if it's a one-time engagement.
 
 The test: does this ongoing domain of responsibility persist indefinitely, or does it have a finish line? If it persists, it might be an Area. If it ends, it's a Flow (or several Flows grouped under a `[[keyword]]`).
 
@@ -56,7 +56,7 @@ The test: does this ongoing domain of responsibility persist indefinitely, or do
 
 ## When multiple Flows share a goal
 
-When multiple parallel Flows serve one larger goal, group them with a `[[keyword]]` prefix. There's no higher container — just a shared name.
+When multiple parallel Flows serve one larger goal, group them with a `[[keyword]]` prefix. There's no higher container, just a shared name.
 
 ```
 Area: Side Projects
@@ -69,7 +69,7 @@ When placing an Action:
 2. If yes, add to that Flow.
 3. If not, create a new Flow and apply the shared prefix.
 
-Sometimes you'll add a single Action and realize it's actually the start of a new Flow. That's fine — let the structure emerge from actual work, not from pre-planned scaffolding.
+Sometimes you'll add a single Action and realize it's actually the start of a new Flow. That's fine. Let the structure emerge from actual work, not from pre-planned scaffolding.
 
 ---
 
@@ -85,7 +85,7 @@ This is where most Actions land. The Flow has a sequence. You're adding to it.
 
 ## Creating new structure
 
-Sometimes a processed item doesn't fit anywhere existing. That's normal — especially during a first-time setup or when your life is changing.
+Sometimes a processed item doesn't fit anywhere existing. That's normal. Especially during a first-time setup or when your life is changing.
 
 - **Creating a new Flow:** Give it a name that describes the outcome, not the activity. "Land new client" is clearer than "client work." "Ship v2 feature" is clearer than "development."
 - **Grouping Flows with a `[[keyword]]` prefix:** Only when a second Flow emerges for the same common goal. Don't pre-group "just in case." The prefix earns its keep only when two Flows actually share a goal.
@@ -99,7 +99,7 @@ Use as little structure as the work requires. Not more.
 
 A standalone Action living directly under an Area is not less organized than an Action in an Area → Flow → Action chain. It's correctly placed for what it is.
 
-Over-structuring is a real failure mode: creating Flows for single Actions, adding `[[keyword]]` prefixes where no grouping exists, nesting things one level deeper than they need to be. This adds organizational overhead without adding clarity — and it makes the system feel heavier than it should.
+Over-structuring is a real failure mode: creating Flows for single Actions, adding `[[keyword]]` prefixes where no grouping exists, nesting things one level deeper than they need to be. This adds organizational overhead without adding clarity. And it makes the system feel heavier than it should.
 
 When in doubt, go simpler. Add structure when you have multiple related things that need grouping. Not before.
 
