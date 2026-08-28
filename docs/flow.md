@@ -6,7 +6,7 @@ A Flow is a specific stream of work with ordered steps. Sequential inside, paral
 
 ## What a Flow is
 
-A Flow is where work actually happens in OTD. It's a named stream of sequential Actions aimed at a specific outcome. When a Flow has at least one uncompleted Action, it's active — and its first uncompleted Action surfaces in Today.
+A Flow is where work actually happens in OTD. It's a named stream of sequential Actions aimed at a specific outcome. When a Flow has at least one uncompleted Action, it's active, and its first uncompleted Action surfaces in Today.
 
 ```
 Flow: Write application
@@ -27,7 +27,7 @@ Step 1 is in Today. You complete it. Step 2 surfaces. You complete it. And so on
 
 This is the core design of Flow.
 
-- **Sequential inside:** Actions within a Flow have a natural order. The next one surfaces only after the current one is done. You don't have to decide the sequence each morning — the Flow has already decided it.
+- **Sequential inside:** Actions within a Flow have a natural order. The next one surfaces only after the current one is done. You don't have to decide the sequence each morning. The Flow has already decided it.
 - **Parallel across:** Multiple Flows surface their first Action in Today simultaneously. Three active Flows means three Actions potentially in Today at once, from three different streams of work. They advance independently.
 
 This is the key departure from GTD. GTD's projects were one sequential chain. OTD's Flows are multiple independent chains running at the same time, each surfacing its front action.
@@ -36,7 +36,7 @@ This is the key departure from GTD. GTD's projects were one sequential chain. OT
 
 ## When you break the sequence
 
-Sequential order is the default, not a constraint. You're the orchestrator — you can override it.
+Sequential order is the default, not a constraint. You're the orchestrator. You can override it.
 
 If you want to work on two Actions from the same Flow at once, manually pull the second one into Today. The system provides order; you break it when you judge it appropriate.
 
@@ -63,13 +63,13 @@ Area: Career
   └─ Flow: Job search
 ```
 
-There is no higher container for Flows. When multiple Flows share a larger goal, group them with a `[[keyword]]` prefix — see below.
+There is no higher container for Flows. When multiple Flows share a larger goal, group them with a `[[keyword]]` prefix (see below).
 
 ---
 
 ## Grouping related Flows
 
-Sometimes multiple Flows belong to the same larger goal — for example, two Flows that together make up "App launch." OTD doesn't add a layer above Flow for this. Instead, prefix the related Flow names with `[[keyword]]`:
+Sometimes multiple Flows belong to the same larger goal (for example, two Flows that together make up "App launch"). OTD doesn't add a layer above Flow for this. Instead, prefix the related Flow names with `[[keyword]]`:
 
 ```
 Area: Side Projects
@@ -81,13 +81,13 @@ The prefix has three useful properties:
 
 1. **Automatic grouping through sort order.** Under alphabetical (or hangul) sort, these Flows land next to each other. No extra tool feature required.
 2. **Self-cleaning.** When the goal is done and you delete the Flows, the grouping disappears with them. No orphan tags, labels, or folders to clean up.
-3. **Tool-agnostic.** It works in any tool — notes apps, spreadsheets, purpose-built task managers — because alphabetical sort is universal.
+3. **Tool-agnostic.** It works in any tool (notes apps, spreadsheets, purpose-built task managers) because alphabetical sort is universal.
 
 If only one Flow serves a goal, don't add a prefix. The prefix only earns its keep when it groups two or more.
 
-`[[keyword]]` is the recommended form, but any consistent prefix — `[keyword]` or `«keyword»` — works the same way. The point is a stable prefix that groups under sort.
+`[[keyword]]` is the recommended form, but any consistent prefix, `[keyword]` or `«keyword»`, works the same way. The point is a stable prefix that groups under sort.
 
-**If your tool has real grouping, use it.** The prefix is a fallback for tools that don't — which is most of them, and why it's the default here. A tool with a first-class grouping concept should offer it directly and keep the prefix working for people arriving from a plain-text setup. What the framework requires is that related Flows stay visibly together; the prefix is one way to get there, not the goal itself.
+**If your tool has real grouping, use it.** The prefix is a fallback for tools that don't. That's most of them, and why it's the default here. A tool with a first-class grouping concept should offer it directly and keep the prefix working for people arriving from a plain-text setup. What the framework requires is that related Flows stay visibly together; the prefix is one way to get there, not the goal itself.
 
 ---
 
@@ -118,7 +118,7 @@ Flow: Prepare visa application
   3. [Do] Finish application
 ```
 
-These aren't Actions — they're vague intentions. When they surface in Today, you'll stare at them and wonder what you actually need to do.
+These aren't Actions. They're vague intentions. When they surface in Today, you'll stare at them and wonder what you actually need to do.
 
 ---
 
@@ -136,7 +136,7 @@ You start with one Flow. As work progresses, you realize separate workstreams ha
 2. Prefix each new Flow with a shared `[[keyword]]`
 
 ```
-Before — one Flow getting unwieldy:
+Before: one Flow getting unwieldy:
 Flow: Launch website
   1. Write copy
   2. Design mockups
@@ -145,13 +145,13 @@ Flow: Launch website
   5. SEO audit
   6. Announce on social media
 
-After — split into three parallel Flows:
+After: split into three parallel Flows:
 Flow: [[Launch website]] Content & design  (copy → mockups → final review)
 Flow: [[Launch website]] Development       (build → analytics → SEO)
 Flow: [[Launch website]] Launch            (soft launch → announce → monitor)
 ```
 
-Under alphabetical sort, the three Flows land next to each other. When the launch is done, just delete the three Flows — there's no separate container to clean up.
+Under alphabetical sort, the three Flows land next to each other. When the launch is done, just delete the three Flows. There's no separate container to clean up.
 
 ---
 
@@ -159,12 +159,12 @@ Under alphabetical sort, the three Flows land next to each other. When the launc
 
 A Flow you're not working on now has two parking destinations:
 
-- **Someday** — you intend to return to this Flow; the timing is just paused. Step 1 is already defined.
-- **Wishlist** — you're keeping the idea as a possibility, not a commitment. Often a Flow that has stalled long enough that "I'll get to it" no longer feels honest.
+- **Someday**: you intend to return to this Flow; the timing is just paused. Step 1 is already defined.
+- **Wishlist**: you're keeping the idea as a possibility, not a commitment. Often a Flow that has stalled long enough that "I'll get to it" no longer feels honest.
 
 Neither surfaces Actions in Today. Both appear in your Weekly Review for consideration.
 
-This is different from deleting a Flow. You're not abandoning it — you're parking it at the level of commitment that's actually true. When circumstances change, activate it from either layer (activation triggers [Principle 3](/principles#_3-close-before-you-open) — decide what's closing to make room).
+This is different from deleting a Flow. You're not abandoning it. You're parking it at the level of commitment that's actually true. When circumstances change, activate it from either layer (activation triggers [Principle 3](/principles#_3-close-before-you-open): decide what's closing to make room).
 
 See [Today, Someday & Wishlist](/today-someday-wishlist) for the full distinction.
 
@@ -172,11 +172,11 @@ See [Today, Someday & Wishlist](/today-someday-wishlist) for the full distinctio
 
 ## Flows and the completion signal
 
-Every active Flow continuously surfaces its next Action. The system keeps moving forward on its own — you just have to do each Action when it arrives.
+Every active Flow continuously surfaces its next Action. The system keeps moving forward on its own. You just have to do each Action when it arrives.
 
 This means the only way to "finish" a Flow is to complete all its Actions. When the last Action is checked, the Flow is done. That completion feeds into the Area's health.
 
-This chain — Action → Flow → Area — is what makes OTD a coherent system rather than a collection of isolated tasks.
+This chain (Action → Flow → Area) is what makes OTD a coherent system rather than a collection of isolated tasks.
 
 ---
 
@@ -193,7 +193,7 @@ Flow: Weekly report  (repeats: every Friday)
   5. [Review]   Process feedback and finalize
 ```
 
-When the last Action is completed, the Flow resets to Action 1. On the next scheduled date, Action 1 surfaces in Today again — as if the Flow is starting fresh.
+When the last Action is completed, the Flow resets to Action 1. On the next scheduled date, Action 1 surfaces in Today again, as if the Flow is starting fresh.
 
 - **From the user's perspective:** the same Flow starts over each cycle.
 - **From the tool's perspective:** a new instance is created internally, preserving history. What the user sees is a fresh state.

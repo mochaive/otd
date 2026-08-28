@@ -1,4 +1,4 @@
-# OTD — Orchestrating Things Done
+# OTD: Orchestrating Things Done
 
 **A personal task management framework for managing parallel work and delegation.**
 
@@ -8,7 +8,7 @@
 
 ## The problem
 
-You open your task manager. There are thirty items. Some are urgent, some have been sitting there for weeks. You spend ten minutes figuring out where to start — and by the time you decide, you've already burned energy that should have gone into actual work.
+You open your task manager. There are thirty items. Some are urgent, some have been sitting there for weeks. You spend ten minutes figuring out where to start. By the time you decide, you've already burned energy that should have gone into actual work.
 
 Or: you delegated something to a colleague last week. You think you remember. But you're not sure if they replied, or if it's waiting on you, or if it just fell through.
 
@@ -21,13 +21,13 @@ Most task systems don't solve these. They give you a better list. The list still
 ## What OTD does differently
 
 **Each stream of work gets its own lane.**
-Multiple projects advance simultaneously. Inside each lane, steps happen in sequence — you always know what's next. You don't choose between thirty items. You choose between five or six, one per active stream.
+Multiple projects advance simultaneously. Inside each lane, steps happen in sequence: you always know what's next. You don't choose between thirty items. You choose between five or six, one per active stream.
 
 **Delegation is first-class.**
-Do, Delegate, Await, Review — four modes with equal visibility. When you hand something off to a person or AI, it moves to Await. When results come back, they surface as Review. The loop closes. Nothing disappears.
+Do, Delegate, Await, Review: four modes with equal visibility. When you hand something off to a person or AI, it moves to Await. When results come back, they surface as Review. The loop closes. Nothing disappears.
 
 **Today is a closed set, not an open list.**
-Every morning you build Today from what your active Flows surface. Every item in Today is completable today. When Today is empty, you're done — not because the clock ran out, but because the set you built this morning is finished. This is different from a task list, which never empties.
+Every morning you build Today from what your active Flows surface. Every item in Today is completable today. When Today is empty, you're done, not because the clock ran out, but because the set you built this morning is finished. This is different from a task list, which never empties.
 
 ---
 
@@ -38,7 +38,7 @@ Every morning you build Today from what your active Flows surface. Every item in
 | **Area** | An ongoing domain of your life. Never ends. |
 | **Flow** | A specific stream of work. Sequential inside, parallel across. Related Flows group via a `[[keyword]]` prefix. |
 | **Action** | The smallest unit of work. Completable in a single day. |
-| **Mode** | Do / Delegate / Await / Review — who executes and what state. |
+| **Mode** | Do / Delegate / Await / Review: who executes and what state. |
 | **Today** | The Actions you will touch today. When empty, your day is done. |
 | **Stuck Signals** | Threshold-based decay detection. Forces a decision when things quietly stop moving. |
 
@@ -61,7 +61,7 @@ Area: Health
 ```
 
 ```
-07:00  Daily Review — build Today
+07:00  Daily Review: build Today
 08:00  Review  → Salary research approved. Next action in Flow unlocks.
 09:00  Delegate → Landing page prompt sent. Moves to Await.
 10:00  Do      → Technical spec done. Checkup booked.

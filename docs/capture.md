@@ -6,7 +6,7 @@ Stage 1: Get everything out of your head into Inbox.
 
 ## What Capture is
 
-Inbox is the single entry point for all inputs. Every task, idea, commitment, worry — anything that needs attention — goes to Inbox first. Not to a project. Not to a flow. Inbox.
+Inbox is the single entry point for all inputs. Every task, idea, commitment, worry (anything that needs attention) goes to Inbox first. Not to a project. Not to a flow. Inbox.
 
 Capture is not the time to decide what something is or where it belongs. That's Processing. Capture is just extraction: get it out of your head.
 
@@ -14,9 +14,9 @@ Capture is not the time to decide what something is or where it belongs. That's 
 
 ## The rules
 
-- **Capture immediately.** When something enters your awareness, capture it right away. Don't try to hold it in your head until a convenient moment. The moment you think "I should do something about this" — that's when it goes to Inbox.
+- **Capture immediately.** When something enters your awareness, capture it right away. Don't try to hold it in your head until a convenient moment. The moment you think "I should do something about this," that's when it goes to Inbox.
 - **Don't process while capturing.** Capture is not the time to decide where something belongs or whether it's worth doing. Just get it out. Processing comes later.
-- **One Inbox.** Everything enters through a single point. If you have five different places things can land — a notebook, two apps, your email inbox, voice memos — you'll always be wondering if you missed something. One Inbox eliminates that anxiety.
+- **One Inbox.** Everything enters through a single point. If you have five different places things can land (a notebook, two apps, your email inbox, voice memos), you'll always be wondering if you missed something. One Inbox eliminates that anxiety.
 
 ---
 
@@ -29,7 +29,7 @@ Capture anything that requires attention:
 - Things you want to do eventually ("I want to read that book")
 - Anything generating low-level mental background noise
 
-If something is taking up any mental space, capture it. The goal is a mind empty enough to focus — not empty of ideas, but empty of the background anxiety of trying to remember.
+If something is taking up any mental space, capture it. The goal is a mind empty enough to focus. Not empty of ideas, but empty of the background anxiety of trying to remember.
 
 ---
 
@@ -44,7 +44,7 @@ In a world connected by APIs, tasks can arrive from anywhere:
 - A GitHub notification that requires a decision
 - A reminder from an automated system
 
-Every one of these is a potential Action. In OTD, all of them flow through Inbox — regardless of source. The principle is the same as GTD; the volume and variety of inflow is larger.
+Every one of these is a potential Action. In OTD, all of them flow through Inbox, regardless of source. The principle is the same as GTD; the volume and variety of inflow is larger.
 
 **What this means practically:** Choose an Inbox that can receive inputs from multiple channels. Many people use a dedicated app that integrates with email and communication tools. Others prefer a simpler approach: a single text file or notes app where everything gets typed. The tool doesn't matter. The single-Inbox discipline does.
 
@@ -52,7 +52,7 @@ Every one of these is a potential Action. In OTD, all of them flow through Inbox
 
 ## The brain dump
 
-When you first set up OTD, do a dedicated brain dump: 30–60 minutes of emptying your head. Every task, idea, commitment, worry that's been living in your head goes into Inbox. Don't filter. Don't organize. Just extract.
+When you first set up OTD, do a dedicated brain dump: 30-60 minutes of emptying your head. Every task, idea, commitment, worry that's been living in your head goes into Inbox. Don't filter. Don't organize. Just extract.
 
 After the brain dump, you'll process. But first: get it all out.
 

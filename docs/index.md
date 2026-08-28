@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "OTD"
   text: "Orchestrating Things Done"
-  tagline: A framework for people who manage work across multiple fronts — some they do themselves, some they delegate, some they're waiting on.
+  tagline: A framework for people who manage work across multiple fronts. Some they do themselves, some they delegate, some they're waiting on.
   actions:
     - theme: brand
       text: Get Started
@@ -19,12 +19,12 @@ features:
   - title: The system surfaces. You curate.
     details: Active Flows auto-fill Today with their front Actions. Curate lightly, swap if needed, or just execute. When Today is empty, you're done.
   - title: Delegation is first-class.
-    details: Do, Delegate, Await, Review — four modes with equal visibility. Whether you're handing off to a colleague, a contractor, or AI, nothing falls through.
+    details: Do, Delegate, Await, Review. Four modes with equal visibility. Whether you're handing off to a colleague, a contractor, or AI, nothing falls through.
 ---
 
 ## The problem OTD solves
 
-You open your task manager. There are thirty items. Some are work, some are personal. Some are urgent, some have been sitting there for weeks. You spend ten minutes trying to figure out where to start — and by the time you decide, you've already used energy that should have gone into the actual work.
+You open your task manager. There are thirty items. Some are work, some are personal. Some are urgent, some have been sitting there for weeks. You spend ten minutes trying to figure out where to start. By the time you decide, you've already used energy that should have gone into the actual work.
 
 Or: you delegated something to a colleague last Tuesday. You think you remember. But you're not sure if they replied, or if you replied, or if it just fell through. You spend five minutes hunting through Slack and email to reconstruct the state of something you should have been able to check in thirty seconds.
 
@@ -32,11 +32,11 @@ Or: you get to the end of the day. You were busy the whole time. But you're not 
 
 OTD is built for these specific failures.
 
-**Each stream of work gets its own lane.** Inside each lane, steps happen in sequence — you always know what's next without deciding. Across lanes, multiple streams advance in parallel.
+**Each stream of work gets its own lane.** Inside each lane, steps happen in sequence. You always know what's next without deciding. Across lanes, multiple streams advance in parallel.
 
-**Delegation has structure.** When you hand something off — to a person or to AI — it moves to Await. When results come back, they surface as Review. The loop closes. Nothing disappears.
+**Delegation has structure.** When you hand something off (to a person or to AI), it moves to Await. When results come back, they surface as Review. The loop closes. Nothing disappears.
 
-**Today has a finish line.** Every morning you fill Today with Actions you can genuinely complete. When Today is empty, you're done — not because the clock ran out, but because the work you chose is finished. No backlog accumulates. The list doesn't grow overnight.
+**Today has a finish line.** Every morning you fill Today with Actions you can genuinely complete. When Today is empty, you're done. Not because the clock ran out, but because the work you chose is finished. No backlog accumulates. The list doesn't grow overnight.
 
 ---
 
@@ -44,15 +44,15 @@ OTD is built for these specific failures.
 
 | Concept | What it is |
 |---------|-----------|
-| **Area** | An ongoing domain of your life — Career, Health, Finance. Never ends. |
+| **Area** | An ongoing domain of your life: Career, Health, Finance. Never ends. |
 | **Flow** | A specific stream of work. Sequential inside, parallel across. Related Flows group via a `[[keyword]]` prefix. |
 | **Action** | The smallest unit of work. Completable in a single day. |
-| **Mode** | Do / Delegate / Await / Review — who executes and what state. |
+| **Mode** | Do / Delegate / Await / Review: who executes and what state. |
 | **Today** | The Actions you will touch today. When empty, your day is done. |
 | **Someday** | Deferred commitments. You intend to return; the timing is paused. |
 | **Wishlist** | Uncommitted possibilities. Ideas you're keeping without obligation. |
 | **Stuck Signals** | Threshold-based decay detection. Forces a decision at the Action, Await, Flow, cluster, and Today levels. |
-| **Goals** | 1–2 year directions. Reviewed quarterly, mapped to Flows. |
+| **Goals** | 1-2 year directions. Reviewed quarterly, mapped to Flows. |
 | **Reference** | Non-actionable information to keep. Holds Vision and Purpose. |
 
 ---

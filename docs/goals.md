@@ -1,6 +1,6 @@
 # Goals
 
-A Goal is a 1–2 year direction you want to move toward. It lives independently — not inside an Area, not inside a Flow.
+A Goal is a 1-2 year direction you want to move toward. It lives independently. Not inside an Area, not inside a Flow.
 
 ---
 
@@ -24,7 +24,7 @@ This is the most important distinction in OTD.
 
 | | Goal | Flow |
 |--|------|------|
-| Timeframe | 1–2 years | Days to months |
+| Timeframe | 1-2 years | Days to months |
 | Nature | Direction | Active work |
 | Contains | Nothing (structurally) | Sequential Actions |
 | Review | Quarterly | Weekly |
@@ -47,24 +47,24 @@ Goals don't belong to a specific Area. A Goal can draw on multiple Areas at once
 
 This is why Goals aren't attached to Areas. They're a separate layer that cuts across the structure.
 
-That said, most Goals do have a primary Area. It's fine to think of them that way mentally — just don't let that prevent Goals that span areas.
+That said, most Goals do have a primary Area. It's fine to think of them that way mentally. Just don't let that prevent Goals that span areas.
 
 ---
 
 ## How many Goals
 
-Aim for 3–7 active Goals. More than that and you'll have more active Flows than you can realistically advance. Fewer than 3 and you're probably not thinking far enough ahead.
+Aim for 3-7 active Goals. More than that and you'll have more active Flows than you can realistically advance. Fewer than 3 and you're probably not thinking far enough ahead.
 
-If a Goal is no longer relevant — circumstances changed, priorities shifted — move it to Someday or delete it. Goals age. Review them.
+If a Goal is no longer relevant (circumstances changed, priorities shifted), move it to Someday or delete it. Goals age. Review them.
 
 ---
 
 ## Writing good Goals
 
 A good Goal is:
-- **Specific enough to judge** — "Be healthier" is not a Goal. "Run a half marathon by May" is.
-- **Achievable in 1–2 years** — If it takes a decade, it's a Vision. If it takes a month, it's probably just a Flow.
-- **Outcome, not activity** — "Work on my app" is activity. "Ship the first public version" is an outcome.
+- **Specific enough to judge**: "Be healthier" is not a Goal. "Run a half marathon by May" is.
+- **Achievable in 1-2 years**: If it takes a decade, it's a Vision. If it takes a month, it's probably just a Flow.
+- **Outcome, not activity**: "Work on my app" is activity. "Ship the first public version" is an outcome.
 
 You don't need elaborate SMART formatting. A clear sentence is enough.
 
@@ -74,19 +74,19 @@ You don't need elaborate SMART formatting. A clear sentence is enough.
 
 Goals are reviewed at two cadences.
 
-**Weekly Review — a brief check:**
+**Weekly Review (a brief check):**
 Look at your active Goals. For each one: are there Flows currently advancing toward it? Is anything blocked or missing?
 
-This doesn't need to be deep. Two minutes scanning the list: "Goal 1 — yes, Portfolio Flow is moving. Goal 2 — nothing active yet, should I start something?"
+This doesn't need to be deep. Two minutes scanning the list: "Goal 1: yes, Portfolio Flow is moving. Goal 2: nothing active yet, should I start something?"
 
-**Quarterly Review — a proper audit:**
+**Quarterly Review (a proper audit):**
 1. Review each Goal: is it still relevant? Update or retire as needed.
 2. For each Goal, map which Flows are currently serving it.
 3. Are there Goals with no active Flows? Activate one.
 4. Are there Flows that don't serve any Goal? Consider moving to Someday.
 5. Add any new Goals that have emerged.
 
-The Goal ↔ Flow mapping is always done in Review — never as a fixed structural connection. Flows come and go; Goals are more stable. Keeping the connection dynamic rather than structural makes the system easier to maintain.
+The Goal ↔ Flow mapping is always done in Review. Never as a fixed structural connection. Flows come and go; Goals are more stable. Keeping the connection dynamic rather than structural makes the system easier to maintain.
 
 ---
 
@@ -94,7 +94,7 @@ The Goal ↔ Flow mapping is always done in Review — never as a fixed structur
 
 | | Goal | Vision | Purpose |
 |--|------|--------|---------|
-| Timeframe | 1–2 years | 3–5 years | Indefinite |
+| Timeframe | 1-2 years | 3-5 years | Indefinite |
 | Review | Quarterly | Annual | Annual or less |
 | Connects to | Flows | Goals | Goals / Areas |
 
